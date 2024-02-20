@@ -24,10 +24,17 @@ main{
     flex: 1 0 auto;
 }
 
-/* img{
-    max-width: 5%;
-    max-height: 5%;
-} */
+img{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+/* Landscape image */
+
+#landscape-detail{
+    width: 300%;
+    height: 300%;
+}
 
 /* Footer */
 footer {
