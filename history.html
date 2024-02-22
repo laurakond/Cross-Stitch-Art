@@ -22,14 +22,18 @@
 <body>
     <!-- Header -->
     <header>
+        <!-- Website title -->
         <a href="index.html">
-            <h1 id="logo">Cross Stitch Craft</h1>
+            <h1 id="logo">Cross Stitch Art</h1>
         </a>
-        <nav>
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">X</label>
+        <!-- Links to pages go here -->
+        <nav id="list-menu">
             <ul id="menu">
-                <li><a href="index.html">About</a></li>
-                <li><a href="history.html" class="active">History & Technique</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li id="first"><a href="index.html" class="active">About</a></li>
+                <li id="middle"><a href="history.html">History & Technique</a></li>
+                <li id="third"><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
     </header>
@@ -56,7 +60,7 @@
 
     <!-- Footer -->
     <footer>
-        <ul>
+        <ul class="social-media-tabs">
             <li><a href="https://www.facebook.com/" target="_blank"
                     aria-label="Follow us on Facebook (opens in new window)"><i class="fa-brands fa-facebook"></i></a>
             </li>
