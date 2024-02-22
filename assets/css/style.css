@@ -30,9 +30,10 @@ header a {
 }
 
 /* Style for the logo of the header */
-/* h1{
-    
-} */
+#logo {
+    color: green;
+    text-align: center;
+}
 
 #menu{
     list-style: none;
@@ -88,8 +89,6 @@ header a {
 }
 
 
-
-
 /* Main */
 main{
     background-color: lightcyan;
@@ -113,4 +112,37 @@ img{
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media query for tables and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    
+    /* Header */
+    header h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #list-menu{
+        display: block;
+        text-align: center;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #menu li {
+        padding: .75rem 1rem;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+    /* Main content */
+    main{
+        margin-top: 87px;
+    }
 }
