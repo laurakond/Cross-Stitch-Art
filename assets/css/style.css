@@ -48,6 +48,10 @@ header a {
     margin: 5px 0;   
 }
 
+.active{
+    border-bottom: 1px solid #000;
+}
+
 /* Menu list with drop down toggle */
 #list-menu{
     position: absolute;
@@ -118,9 +122,11 @@ footer {
 @media screen and (min-width: 768px) {
     
     /* Header */
-    header h1 {
+    header {
+        position: fixed;
         display: flex;
         justify-content: center;
+        padding-top: 10px;
     }
     
     #list-menu{
@@ -143,6 +149,13 @@ footer {
 
     /* Main content */
     main{
-        margin-top: 87px;
+        margin-top: 99px;
+    }
+}
+
+/* Media query for large devices (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #000;
     }
 }
