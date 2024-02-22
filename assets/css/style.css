@@ -27,9 +27,9 @@ header a {
 }
 
 /* Style for the logo of the header */
-h1{
+/* h1{
     
-}
+} */
 
 #menu{
     list-style: none;
@@ -44,9 +44,19 @@ h1{
     margin: 5px 0;   
 }
 
+/* Menu list with drop down toggle */
+#list-menu{
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display:none;
+}
+
 #first{
     padding-left: 10px;
-    padding-right: 5px
+    padding-right: 5px;
 }
 
 #middle{
@@ -56,6 +66,9 @@ h1{
 #third{
     padding-right: 5px;
 }
+
+
+
 
 /* Main */
 main{
