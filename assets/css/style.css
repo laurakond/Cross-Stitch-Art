@@ -20,6 +20,9 @@ header{
     z-index: 50;
     /* Fits the full width of the screen as it position fixed reverted back to default settings */
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -52,7 +55,24 @@ header a {
     left: 0;
     padding: 0 1rem;
     display:none;
+    top: 100%
 }
+
+/* Nav-toggle */
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+/* Increases drop bown icon size */
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
+/* Overrides parent padding/margin in the navigation bar */
 
 #first{
     padding-left: 10px;
