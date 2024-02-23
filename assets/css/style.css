@@ -1,24 +1,30 @@
-/* Google fonts */
-
-
 /* Asterisk wildcard selector used to remove default styles */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /* General styles */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Other general project styles */
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.50em;
 }
 
 /* Header */
-header{
+header {
     background-color: yellow;
-    padding: 0 10px;
+    padding: 5px 7px;
     position: fixed;
     z-index: 50;
     /* Fits the full width of the screen as it position fixed reverted back to default settings */
@@ -32,54 +38,61 @@ header a {
     text-decoration: none;
 }
 
+label>i {
+    padding-top: 5px;
+}
+
 /* Style for the logo of the header */
 #logo {
     color: green;
     text-align: center;
+    height: 40px;
 }
 
 /* Menu list with drop down toggle */
-#list-menu{
+#list-menu {
     position: absolute;
     background-color: yellow;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
-    display:none;
-    top: 100%
+    padding: 0 10px;
+    display: none;
+    top: 100%;
 }
 
-#menu{
+#menu {
     list-style: none;
     /* margin-right: -5%;
     margin-left: -5%; */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3px;
 }
 
-#menu>li{
+#menu>li {
     /* Makes menu list show in one line */
     display: inline-block;
     /* Spaces out each li between one another */
-    margin: 5px 0;   
+    margin: 5px 0;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #000;
 }
 
 /* Nav-toggle */
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-/* Increases drop bown icon size */
-.nav-toggle-label{
+/* Increases drop down icon size */
+.nav-toggle-label {
     font-size: 2rem;
-    
 }
 
 /* Overrides parent padding/margin in the navigation bar */
@@ -99,21 +112,21 @@ header a {
 
 
 /* Main */
-main{
+main {
     background-color: lightcyan;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 37px;
+    margin-top: 54px;
 }
 
-img{
+img {
     max-width: 10%;
     max-height: 10%;
 }
 
 /* Landscape image */
 
-#landscape-detail{
+#landscape-detail {
     width: 100%;
     height: 100%;
 }
@@ -130,9 +143,40 @@ footer {
     padding: 10px 0;
 }
 
+/* Media query for mobiles from 320px and up*/
+@media screen and (min-width: 320px){
+    /* Header  */
+    header {
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px 10px;
+        align-items: baseline;
+    }
+
+    #list-menu {
+        padding: 0 5px;
+    }
+
+    #menu {
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 5px;
+        font-size: 1.1em;
+    }
+
+    /* Main */
+    main{
+        margin-top: 54px ;
+    }
+}
+
 /* Media query for tables and larger (768px and up) */
 @media screen and (min-width: 375px) {
-    
+
     /* Header */
     header {
         position: fixed;
@@ -140,27 +184,29 @@ footer {
         justify-content: center;
         padding-top: 10px;
     }
-    
-    #list-menu{
-        display: block;
+
+    #list-menu {
+        display: flex;
         text-align: center;
+        justify-content: space-around;
     }
 
     #menu {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        flex-direction: row;
     }
 
     #menu li {
         padding: .75rem 1rem;
     }
 
-    .nav-toggle-label{
+    .nav-toggle-label {
         display: none;
     }
 
     /* Main content */
-    main{
+    main {
         margin-top: 99px;
     }
 
@@ -169,7 +215,7 @@ footer {
 
 /* Media query for large devices (992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #000;
     }
 }
