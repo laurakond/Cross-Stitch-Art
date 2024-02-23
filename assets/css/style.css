@@ -250,3 +250,31 @@ footer {
     /* Footer */
 
 }
+
+/* Media query for large devices (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Header */
+    h1 {
+        font-size: 4rem;
+    }
+
+    #menu {
+        font-size: 1.5em;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #000;
+    }
+
+    #menu li {
+        padding: 1.25rem 1.5rem;
+    }
+
+    /* Main */
+    main{
+        margin-top: 157px;
+    }
+    /* Footer */
+
+}
