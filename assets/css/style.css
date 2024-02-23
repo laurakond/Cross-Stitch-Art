@@ -30,7 +30,7 @@ header {
     /* Fits the full width of the screen as it position fixed reverted back to default settings */
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 
@@ -143,15 +143,17 @@ footer {
     padding: 10px 0;
 }
 
+
 /* Media query for mobiles from 320px and up*/
 @media screen and (min-width: 320px){
     /* Header  */
     header {
-        position: fixed;
-        display: flex;
+        /* Below commented lines can be deleted as they are shown in the main CSS style sheet */
+        /* position: fixed; */
+        /* display: flex; */
         justify-content: space-around;
         padding: 5px 10px;
-        align-items: baseline;
+        /* align-items: baseline; */
     }
 
     #list-menu {
@@ -159,8 +161,9 @@ footer {
     }
 
     #menu {
-        list-style: none;
-        text-align: center;
+        /* these two below lines are not required as they are the same in the main CSS style */
+        /* list-style: none;
+        text-align: center; */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -174,8 +177,10 @@ footer {
     }
 }
 
+
+
 /* Media query for tables and larger (768px and up) */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
 
     /* Header */
     header {
@@ -207,7 +212,7 @@ footer {
 
     /* Main content */
     main {
-        margin-top: 99px;
+        margin-top: 115px;
     }
 
     /* Footer */
