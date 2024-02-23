@@ -17,6 +17,11 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google fonts placed here due to occuring problem in style sheet using import function of Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Zeyada&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -27,17 +32,17 @@
             <h1 id="logo">Cross Stitch Art</h1>
         </a>
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">X</label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <!-- Links to pages go here -->
         <nav id="list-menu">
             <ul id="menu">
-                <li id="first"><a href="index.html">About</a></li>
+                <li id="first"><a href="index.html" class="active">About</a></li>
                 <li id="middle"><a href="history.html">History & Technique</a></li>
-                <li id="third"><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li id="third"><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <!-- Main content -->
     <main>
         <!-- Gallery section -->
@@ -53,22 +58,24 @@
             contact information
         </section>
     </main>
-    
+
     <!-- Footer -->
     <footer>
         <ul class="social-media-tabs">
-            <li><a href="https://www.facebook.com/" target="_blank"
-                    aria-label="Follow us on Facebook (opens in new window)"><i class="fa-brands fa-facebook"></i></a>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Follow me on Facebook (opens in new window)"><i class="fa-brands fa-facebook"></i></a>
             </li>
-            <li><a href="https://www.instagram.com/stitch_ballerina/" target="_blank"
-                    aria-label="Follow us on Instagram (opens in new window)"><i class="fa-brands fa-instagram"></i></a>
+            <li><a href="https://www.instagram.com/stitch_ballerina/" target="_blank" rel="noopener"
+                    aria-label="Follow me on Instagram (opens in new window)"><i class="fa-brands fa-instagram"></i></a>
             </li>
-            <li><a href="https://www.youtube.com/" target="_blank"
-                    aria-label="Follow us on Youtube (opens in new window)"><i class="fa-brands fa-youtube"></i></a>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Follow me on Youtube (opens in new window)"><i class="fa-brands fa-youtube"></i></a>
             </li>
+            <li><a href="https://github.com/laurakond" target="_blank" rel="noopener"
+                    aria-label="Visit my Github page (opens in new window)"><i class="fa-brands fa-github"></i></a></li>
         </ul>
     </footer>
-    
+
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/b3fd759711.js" crossorigin="anonymous"></script>
 </body>
