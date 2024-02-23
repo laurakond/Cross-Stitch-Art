@@ -75,6 +75,7 @@ label>i {
     display: inline-block;
     /* Spaces out each li between one another */
     margin: 5px 0;
+    padding-bottom: .5rem;
 }
 
 .active {
@@ -145,13 +146,14 @@ footer {
 
 
 /* Media query for mobiles from 320px and up*/
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {
+
     /* Header  */
     header {
         /* Below commented lines can be deleted as they are shown in the main CSS style sheet */
         /* position: fixed; */
         /* display: flex; */
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 5px 10px;
         /* align-items: baseline; */
     }
@@ -172,12 +174,10 @@ footer {
     }
 
     /* Main */
-    main{
-        margin-top: 54px ;
+    main {
+        margin-top: 54px;
     }
 }
-
-
 
 /* Media query for tables and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -190,6 +190,10 @@ footer {
         padding-top: 10px;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
     #list-menu {
         display: flex;
         text-align: center;
@@ -200,6 +204,7 @@ footer {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        font-size: 1.3em;
     }
 
     #menu li {
@@ -212,7 +217,7 @@ footer {
 
     /* Main content */
     main {
-        margin-top: 115px;
+        margin-top: 123px;
     }
 
     /* Footer */
@@ -220,7 +225,28 @@ footer {
 
 /* Media query for large devices (992px and up) */
 @media screen and (min-width: 992px) {
+
+    /* Header */
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    #menu {
+        font-size: 1.4em;
+    }
+
     #menu a:hover {
         border-bottom: 1px solid #000;
     }
+
+    #menu li {
+        padding: 1rem 1.25rem;
+    }
+
+    /* Main */
+    main{
+        margin-top: 140px;
+    }
+    /* Footer */
+
 }
