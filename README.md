@@ -1,10 +1,38 @@
 # Cross Stitch Art
+(By Laura Kondrataite)
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+![Image showing the website responsiveness in different screen settings](responsive website url image link)
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Cross Stitch Art is a portfolio website showcasing the development and progression of cross-stitch embroidery of one individual. Users will be able to read about the crafter, read about the history of cross-stitch embroidery, delve into the craft of cross-stich and view a gallery showcasing the crafter's former and current cross-stitching projects. The user will also find contact information in order to get in touch with the crafter.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+The website is responsive across a range of devices, is accessible and easy to navigate for all user audiences.
+
+Cross Stitch Art was primarily created for educational purposes as part of Code Institute's Web Develpment Diploma course, HTML and CSS portfolio project. 
+
+There is scope to continue developing and make the website an active portfolio platform in the future.
+
+Link to live page: [Cross-Stitch-Art](#deployment)
+
+## Contents
+[Features](#features)
+- [Features left of implement](#features-left-to-implement)
+
+[Design](#design)
+- [User Stories](#user-stories)
+- [Wireframes](#wireframes)
+
+[Development](#development)
+- [Testing](#testing)
+- [Validator testing](#validator-testing)
+- [Unfixed bugs](#unfixed-bugs)
+
+[Deployment](#deployment)
+
+[Tools and technologies](#tools-and-technologies)
+
+[Credits](#credits)
+-[Code Inspiration](#code-inspiration)
+
 
 ## Features 
 
@@ -13,50 +41,39 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Portfolio/Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](image url to the nav bar)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Cross Stitch Art. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+URL of the footer ![Footer](image URL to the footer)
+
+- __The Video__
+
+  - Caterpillar Cross Stitch channel for supplying Youtube video. https://www.youtube.com/@CaterpillarCrossStitch
+
+![Video](image url of the caterpillar video video)
 
 - __Portfolio__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Video__
-
-  - 
-
-![Video](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Gallery](image URL to the portfoltio page)
 
 ### Features Left to Implement
 
-- Another feature idea
+- Implement a brushstroke hover effect to the navigation bar in the menu.
 
 ## Testing 
 
@@ -100,20 +117,33 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
+In preparation to and during this project I refered to multiple sources, including:
+- SheCodes website
+- Stackoverflow website
+- W3Schools website
+
+I read up more on Media Queries functionality and watched a few videos in order to gain a better understanding of how media queries work and function:
+- ![freeCodecamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
+- ![Dani Krossing video on Youtube](https://www.youtube.com/watch?v=UUjNEMXZA-k)
+- ![WebDev Simplified channel](https://www.youtube.com/watch?v=yU7jJ3NbPdA) 
+- ![CSS Tricks website](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Caterpillar Cross Stitch channel for supplying Youtube video. https://www.youtube.com/@CaterpillarCrossStitch
-- Used Love Running project code for implementing drop down menu
+- The icons in the footer, and the burger menu were taken from [Font Awesome](https://fontawesome.com/)
+- Used Love Running project code from Code Institute for implementing drop down menu in the navigation bar, and the footer. 
 
 ### Media
 
 - Photos for background images from (insert website here):
 *   image
 *   image
+- Caterpillar Cross Stitch channel for supplying Youtube video. https://www.youtube.com/@CaterpillarCrossStitch
+
 
 ### Code inspiration
 
+- Code Institute's Love Running project
 - stackoverflow
 - browserstack
 - freecodecamp https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262
