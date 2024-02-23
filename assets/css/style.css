@@ -138,10 +138,17 @@ footer {
 }
 
 .social-media-tabs {
+    text-align: center;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+.social-media-tabs i{
+    /* place font size in % */
+    padding: 5%;
+    /* set color */
 }
 
 
