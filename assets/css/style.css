@@ -14,9 +14,21 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1{
+h1, h2{
     font-family: "Marck Script", cursive;
     font-weight: 400;
+}
+
+h2{
+    font-size: 300%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3{
+    font-size: 200%;
+    margin: 10px 0;
+    text-align: center;
 }
 
 /* Header */
@@ -98,12 +110,44 @@ main {
     flex: 1 0 auto;
     /* Adjusts main content to the margin of the header */
     margin-top: 51px;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     max-width: 10%;
     max-height: 10%;
 }
+
+/* About me section */
+
+#container-box{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#welcome{
+    margin: 20px 0;
+}
+
+#welcome p{
+    text-align: center;
+}
+
+#introduction-to-stitch{
+    margin: 20px 10px;
+}
+
+#introduction-to-stitch h3{
+    font-size: 200%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#finding-niche{
+    margin: 20px 10px;
+}
+
 
 /* Landscape image */
 
