@@ -14,11 +14,9 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    font-family: "Zeyada", cursive;
+h1{
+    font-family: "Marck Script", cursive;
     font-weight: 400;
-    font-style: normal;
-    font-size: 2.50em;
 }
 
 /* Header */
@@ -31,7 +29,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -45,8 +43,8 @@ label>i {
 /* Style for the logo of the header */
 #logo {
     color: green;
-    text-align: center;
-    height: 40px;
+    /* text-align: center; */
+    /* height: 40px; */
 }
 
 /* Menu list with drop down toggle */
@@ -75,7 +73,8 @@ label>i {
     display: inline-block;
     /* Spaces out each li between one another */
     margin: 5px 0;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
+    font-size: 110%;
 }
 
 .active {
@@ -117,7 +116,7 @@ main {
     background-color: lightcyan;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 54px;
+    margin-top: 51px;
 }
 
 img {
@@ -174,15 +173,15 @@ footer {
         /* list-style: none;
         text-align: center; */
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: space-around;
         padding-bottom: 5px;
-        font-size: 1.1em;
+        /* font-size: 1.1em; */
     }
 
     /* Main */
     main {
-        margin-top: 54px;
+        margin-top: 51px;
     }
 }
 
@@ -197,21 +196,23 @@ footer {
         padding-top: 10px;
     }
 
-    h1 {
-        font-size: 3rem;
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
 
     #list-menu {
         display: flex;
         text-align: center;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     #menu {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: row;
-        font-size: 1.3em;
+        /* font-size: 1.3em; */
     }
 
     #menu li {
@@ -224,7 +225,7 @@ footer {
 
     /* Main content */
     main {
-        margin-top: 123px;
+        margin-top: 150px;
     }
 
     /* Footer */
@@ -234,26 +235,26 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* Header */
-    h1 {
+    /* h1 {
         font-size: 3.5rem;
-    }
+    } */
 
-    #menu {
+    /* #menu {
         font-size: 1.4em;
-    }
+    } */
 
     #menu a:hover {
         border-bottom: 1px solid #000;
     }
 
-    #menu li {
+    /* #menu li {
         padding: 1rem 1.25rem;
-    }
+    } */
 
     /* Main */
-    main{
-        margin-top: 140px;
-    }
+    /* main{
+        margin-top: 150px;
+    } */
     /* Footer */
 
 }
@@ -262,25 +263,25 @@ footer {
 @media screen and (min-width: 1200px) {
 
     /* Header */
-    h1 {
+    /* h1 {
         font-size: 4rem;
-    }
+    } */
 
-    #menu {
+    /* #menu {
         font-size: 1.5em;
-    }
+    } */
 
     #menu a:hover {
         border-bottom: 1px solid #000;
     }
 
-    #menu li {
+    /* #menu li {
         padding: 1.25rem 1.5rem;
-    }
+    } */
 
     /* Main */
     main{
-        margin-top: 157px;
+        margin-top: 150px;
     }
     /* Footer */
 
