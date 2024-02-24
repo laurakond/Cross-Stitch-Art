@@ -116,6 +116,7 @@ main {
     background-color: lightcyan;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /* Adjusts main content to the margin of the header */
     margin-top: 51px;
 }
 
@@ -145,7 +146,7 @@ footer {
 }
 
 .social-media-tabs i{
-    /* place font size in % */
+    font-size: 160%;
     padding: 5%;
     /* set color */
 }
@@ -216,7 +217,7 @@ footer {
     }
 
     #menu li {
-        padding: .75rem 1rem;
+        padding: .75rem 3rem;
     }
 
     .nav-toggle-label {
@@ -235,26 +236,13 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* Header */
-    /* h1 {
-        font-size: 3.5rem;
-    } */
-
-    /* #menu {
-        font-size: 1.4em;
-    } */
-
+   
     #menu a:hover {
         border-bottom: 1px solid #000;
     }
 
-    /* #menu li {
-        padding: 1rem 1.25rem;
-    } */
-
     /* Main */
-    /* main{
-        margin-top: 150px;
-    } */
+    
     /* Footer */
 
 }
@@ -263,21 +251,10 @@ footer {
 @media screen and (min-width: 1200px) {
 
     /* Header */
-    /* h1 {
-        font-size: 4rem;
-    } */
-
-    /* #menu {
-        font-size: 1.5em;
-    } */
 
     #menu a:hover {
         border-bottom: 1px solid #000;
     }
-
-    /* #menu li {
-        padding: 1.25rem 1.5rem;
-    } */
 
     /* Main */
     main{
