@@ -20,6 +20,8 @@ Link to live page: [Cross-Stitch-Art](#deployment)
 [Design](#design)
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
+- [Colour palette](#Colour-palette)
+- [Font styles](#font-styles)
 
 [Development](#development)
 - [Testing](#testing)
@@ -31,7 +33,9 @@ Link to live page: [Cross-Stitch-Art](#deployment)
 [Tools and technologies](#tools-and-technologies)
 
 [Credits](#credits)
--[Code Inspiration](#code-inspiration)
+- [Content](#content)
+- [Media](#media)
+- [Code Inspiration](#code-inspiration)
 
 
 ## Features 
@@ -75,7 +79,20 @@ URL of the footer ![Footer](image URL to the footer)
 
 - Implement a brushstroke hover effect to the navigation bar in the menu.
 
-## Testing 
+## Design
+
+### User stories
+
+### Wireframes
+
+### Colour palette
+
+### Font styles
+
+
+## Development
+
+### Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -97,6 +114,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
@@ -107,6 +125,11 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+
+
+## Tools and Technologies
+
+
 
 
 ## Credits 
