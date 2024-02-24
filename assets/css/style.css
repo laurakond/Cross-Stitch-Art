@@ -43,8 +43,6 @@ label>i {
 /* Style for the logo of the header */
 #logo {
     color: green;
-    /* text-align: center; */
-    /* height: 40px; */
 }
 
 /* Menu list with drop down toggle */
@@ -60,8 +58,6 @@ label>i {
 
 #menu {
     list-style: none;
-    /* margin-right: -5%;
-    margin-left: -5%; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -94,22 +90,6 @@ label>i {
 .nav-toggle-label {
     font-size: 2rem;
 }
-
-/* Overrides parent padding/margin in the navigation bar */
-
-/* #first{
-    padding-left: 10px;
-    padding-right: 5px;
-}
-
-#middle{
-    padding: 0 5px;
-}
-
-#third{
-    padding-right: 5px;
-} */
-
 
 /* Main */
 main {
@@ -157,12 +137,9 @@ footer {
 
     /* Header  */
     header {
-        /* Below commented lines can be deleted as they are shown in the main CSS style sheet */
-        /* position: fixed; */
-        /* display: flex; */
         justify-content: space-evenly;
         padding: 5px 10px;
-        /* align-items: baseline; */
+      
     }
 
     #list-menu {
@@ -170,14 +147,9 @@ footer {
     }
 
     #menu {
-        /* these two below lines are not required as they are the same in the main CSS style */
-        /* list-style: none;
-        text-align: center; */
         display: flex;
-        /* flex-direction: row; */
         justify-content: space-around;
         padding-bottom: 5px;
-        /* font-size: 1.1em; */
     }
 
     /* Main */
@@ -213,7 +185,6 @@ footer {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        /* font-size: 1.3em; */
     }
 
     #menu li {
