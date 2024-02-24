@@ -114,14 +114,21 @@ main {
     flex-direction: column;
 }
 
-img {
-    max-width: 10%;
-    max-height: 10%;
+/* Profile image */
+#profile-image{
+    background-color: green;
+    display: block;
+    margin: 50px auto 20px;
+    height: 150px;
+    width: 150px;
+    background: url("../images/profile-image-edited2.jpg") no-repeat center center/cover;
+    border-radius: 50%;
 }
 
 /* About me section */
 
 #container-box{
+    /* Width 90% does not spread the content to the sides of the margin leacing some breathing space to style accordingly. */
     width: 90%;
     margin: 0 auto;
 }
@@ -148,12 +155,17 @@ img {
     margin: 20px 10px;
 }
 
+.paragraph{
+    text-align: justify;
+}
 
 /* Landscape image */
-
+/* Credit Love running project for this part */
 #landscape-detail {
+    height: 100px;
     width: 100%;
-    height: 100%;
+    /* forward slash between position and size */
+    background: url("../images/IMG_3974-edited.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
