@@ -27,7 +27,7 @@ h2{
 
 h3{
     font-size: 200%;
-    margin: 10px 0;
+    margin: 10px 0 30px;
     text-align: center;
 }
 
@@ -114,8 +114,8 @@ main {
     flex: 1 0 auto;
     /* Adjusts main content to the margin of the header */
     margin-top: 51px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 /* Profile image */
@@ -127,7 +127,7 @@ main {
 
 #profile-image-circle{
     background-color: green;
-    margin: 50px 0;
+    margin: 50px 0 30px;
     height: 180px;
     width: 180px;
     background: url("../images/profile-image-edited2.jpg") no-repeat center center/cover;
@@ -135,10 +135,15 @@ main {
     /* Ensures image doesn't exceed 300px when scaled*/
     max-width: 300px;
     max-height: 300px;
-    
 }
 
 /* About me section */
+
+span{
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 200%;
+}
 
 #container-box{
     /* Width 90% does not spread the content to the sides of the margin leacing some breathing space to style accordingly. */
@@ -147,30 +152,26 @@ main {
 }
 
 #welcome{
-    margin: 20px 0;
+    margin: 20px 0 30px;
 }
 
 #welcome p{
     text-align: center;
 }
 
-#introduction-to-stitch{
-    margin: 20px 10px;
-}
-
-#introduction-to-stitch h3{
-    font-size: 200%;
-    margin: 10px 0;
-    text-align: center;
-}
-
-#finding-niche{
-    margin: 20px 10px;
+#about-me{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
 }
 
 .paragraph{
     text-align: justify;
     margin: 20px auto 40px;
+}
+
+#introduction-to-stitch, #finding-niche{
+    margin: 20px 0 0;
 }
 
 /* Landscape image */
@@ -283,7 +284,13 @@ footer {
     }
 
     /* Main */
-    
+    #about-me{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        margin: 20px auto 50px;
+    }
     /* Footer */
 
 }
@@ -298,9 +305,14 @@ footer {
     }
 
     /* Main */
-    main{
-        margin-top: 150px;
-    }
+    /* #about-me{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        margin: 20px auto 50px;
+    } */
+
     /* Footer */
 
 }
