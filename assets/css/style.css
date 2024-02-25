@@ -34,7 +34,7 @@ h3 {
 
 p {
     line-height: 1.75;
-    
+
 }
 
 /* Header */
@@ -161,7 +161,7 @@ span {
     text-align: center;
 }
 
-#about-me {
+#about-me{
     display: flex;
     flex-direction: column;
     padding: 0 3%;
@@ -177,7 +177,7 @@ span {
     margin: 20px 0 0;
 }
 
-#span-container p{
+#span-container p {
     line-height: revert;
     text-align: right;
     margin-bottom: 20px;
@@ -192,6 +192,8 @@ span {
     /* forward slash between position and size */
     background: url("../images/IMG_3974-edited.jpg") no-repeat center center/cover;
 }
+
+
 
 /* Footer */
 footer {
@@ -294,16 +296,16 @@ footer {
     }
 
     /* Main */
-/* Remove the below as I don't think it's needed */
+    /* Remove the below as I don't think it's needed */
     /* #container-box {
         width: 95%;
     } */
-    
+
     #welcome p {
         /* font-size: 18.5747px; */
     }
 
-    #about-me {
+    #about-me{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -311,14 +313,30 @@ footer {
         margin: 20px auto 30px;
     }
 
-    .paragraph{
+    .paragraph {
         margin: 20px auto 0;
     }
 
-    #span-container p{
+    #span-container p {
         padding: 3% 3% 5%;
     }
 
+    /* History of Cross-stitch section */
+    .history-technique{
+        
+    }
+
+    #stitch-history {
+        order: 0;
+        flex-grow: 2;
+        flex-direction: row;
+        justify-content: center;
+        background-color: purple;
+    }
+
+    #about-me #second-row{
+        background-color: green;
+    }
     /* Footer */
 
 }
