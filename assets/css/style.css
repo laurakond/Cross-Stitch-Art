@@ -14,25 +14,27 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: "Marck Script", cursive;
     font-weight: 400;
 }
 
-h2{
+h2 {
     font-size: 300%;
     margin-bottom: 20px;
     text-align: center;
 }
 
-h3{
+h3 {
     font-size: 200%;
     margin: 10px 0 30px;
     text-align: center;
 }
 
-p{
+p {
     line-height: 1.75;
+    
 }
 
 /* Header */
@@ -119,13 +121,13 @@ main {
 }
 
 /* Profile image */
-#profile-image-container{
+#profile-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#profile-image-circle{
+#profile-image-circle {
     background-color: green;
     margin: 50px 0 30px;
     height: 180px;
@@ -139,39 +141,47 @@ main {
 
 /* About me section */
 
-span{
+span {
     font-family: "Marck Script", cursive;
     font-weight: 400;
     font-size: 200%;
 }
 
-#container-box{
+#container-box {
     /* Width 90% does not spread the content to the sides of the margin leacing some breathing space to style accordingly. */
     width: 90%;
     margin: 0 auto;
 }
 
-#welcome{
+#welcome {
     margin: 20px 0 30px;
 }
 
-#welcome p{
+#welcome p {
     text-align: center;
 }
 
-#about-me{
+#about-me {
     display: flex;
     flex-direction: column;
     padding: 0 3%;
 }
 
-.paragraph{
+.paragraph {
     text-align: justify;
     margin: 20px auto 40px;
 }
 
-#introduction-to-stitch, #finding-niche{
+#introduction-to-stitch,
+#finding-niche {
     margin: 20px 0 0;
+}
+
+#span-container p{
+    line-height: revert;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 0 3% 5%;
 }
 
 /* Landscape image */
@@ -196,7 +206,7 @@ footer {
     padding: 20px 0;
 }
 
-.social-media-tabs i{
+.social-media-tabs i {
     font-size: 160%;
     padding: 5%;
     /* set color */
@@ -210,7 +220,7 @@ footer {
     header {
         justify-content: space-evenly;
         padding: 5px 10px;
-      
+
     }
 
     #list-menu {
@@ -278,19 +288,37 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* Header */
-   
+
     #menu a:hover {
         border-bottom: 1px solid #000;
     }
 
     /* Main */
-    #about-me{
+
+    #container-box {
+        width: 95%;
+    }
+    
+    #welcome p {
+        /* font-size: 18.5747px; */
+    }
+
+    #about-me {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap: 50px;
-        margin: 20px auto 50px;
+        margin: 20px auto 30px;
     }
+
+    .paragraph{
+        margin: 20px auto 0;
+    }
+
+    #span-container p{
+        padding: 0 3% 5%;
+    }
+
     /* Footer */
 
 }
