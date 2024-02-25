@@ -294,10 +294,10 @@ footer {
     }
 
     /* Main */
-
-    #container-box {
+/* Remove the below as I don't think it's needed */
+    /* #container-box {
         width: 95%;
-    }
+    } */
     
     #welcome p {
         /* font-size: 18.5747px; */
@@ -316,7 +316,7 @@ footer {
     }
 
     #span-container p{
-        padding: 0 3% 5%;
+        padding: 3% 3% 5%;
     }
 
     /* Footer */
