@@ -119,14 +119,23 @@ main {
 }
 
 /* Profile image */
-#profile-image{
+#profile-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-image-circle{
     background-color: green;
-    display: block;
-    margin: 50px auto 20px;
+    margin: 50px 0;
     height: 180px;
     width: 180px;
     background: url("../images/profile-image-edited2.jpg") no-repeat center center/cover;
     border-radius: 50%;
+    /* Ensures image doesn't exceed 300px when scaled*/
+    max-width: 300px;
+    max-height: 300px;
+    
 }
 
 /* About me section */
