@@ -31,6 +31,10 @@ h3{
     text-align: center;
 }
 
+p{
+    line-height: 1.75;
+}
+
 /* Header */
 header {
     background-color: yellow;
@@ -119,8 +123,8 @@ main {
     background-color: green;
     display: block;
     margin: 50px auto 20px;
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     background: url("../images/profile-image-edited2.jpg") no-repeat center center/cover;
     border-radius: 50%;
 }
@@ -157,12 +161,13 @@ main {
 
 .paragraph{
     text-align: justify;
+    margin: 20px auto 40px;
 }
 
 /* Landscape image */
 /* Credit Love running project for this part */
 #landscape-detail {
-    height: 100px;
+    height: 25vh;
     width: 100%;
     /* forward slash between position and size */
     background: url("../images/IMG_3974-edited.jpg") no-repeat center center/cover;
