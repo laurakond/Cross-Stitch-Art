@@ -120,6 +120,11 @@ main {
     flex-direction: column; */
 }
 
+#introduction-to-stitch,
+#finding-niche, #stitch-history {
+    margin-top: 20px;
+}
+
 /* Profile image */
 #profile-image-container {
     display: flex;
@@ -172,10 +177,10 @@ span {
     margin: 20px auto 40px;
 }
 
-#introduction-to-stitch,
-#finding-niche {
-    margin: 20px 0 0;
-}
+/* #introduction-to-stitch,
+#finding-niche, #stitch-history {
+    margin-top: 20px;
+} */
 
 #span-container p {
     line-height: revert;
@@ -192,6 +197,20 @@ span {
     /* forward slash between position and size */
     background: url("../images/IMG_3974-edited.jpg") no-repeat center center/cover;
 }
+
+/* History & Technique page */
+
+#history-technique{
+    margin: 50px 0;
+}
+
+#history-technique h3 {
+    
+}
+/* 
+#stitch-history{
+    margin-top: 50px;
+} */
 
 #video-container{
     /* credit youtube video and website */
@@ -335,7 +354,6 @@ footer {
         flex-grow: 2; */
         flex-direction: row;
         justify-content: center;
-        background-color: purple;
         width: 100%;
         padding: inherit;
     }
@@ -346,6 +364,7 @@ footer {
         /* padding: inherit; */
         /* margin-bottom: 20px; */
         height: 100%;
+        padding: inherit;
     }
 
     #stitch-technique{
@@ -354,7 +373,6 @@ footer {
     padding: 20px 0 20px;
     /* flex-basis: auto; */
     /* margin-bottom: 20px; */
-    background-color: pink;
     /* height: 100%; */
     }
 
@@ -363,7 +381,7 @@ footer {
     /* margin: 0 20px; */
     height: 50%;
     align-self: center;
-}
+
     }
     /* Footer */
 
