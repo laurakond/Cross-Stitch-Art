@@ -217,6 +217,18 @@ span {
     width: 100%;
 }
 
+/* Portfolio page */
+#images img{
+    width: 100%;
+    line-height: 1em;
+    border: 5px solid white;
+}
+
+#images{
+    line-height: 0;
+}
+
+
 /* Footer */
 footer {
     background-color: orange;
@@ -263,6 +275,14 @@ footer {
     }
 }
 
+/* Media query for tables and larger (576px and up) */
+@media screen and (min-width: 576px) {
+    #images{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query for tables and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -305,9 +325,12 @@ footer {
         margin-top: 150px;
     }
 
+    #images{
+        column-count: 3;
+    }
 }
 
-/* Media query for large devices (992px and up) */
+/* Media query for large devices (laptops and desktops,992px and up) */
 @media screen and (min-width: 992px) {
 
     /* Header */
@@ -382,15 +405,11 @@ footer {
         /* margin: 0 20px; */
         height: 50%;
         align-self: center;
-
     }
 
-    /* Portfolio page */
-    #images img{
-        width: 100%;
-        
+    #images{
+        column-count: 4;
     }
-
 
     /* Footer */
 
