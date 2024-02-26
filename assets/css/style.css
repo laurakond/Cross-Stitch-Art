@@ -121,7 +121,8 @@ main {
 }
 
 #introduction-to-stitch,
-#finding-niche, #stitch-history {
+#finding-niche,
+#stitch-history {
     margin-top: 20px;
 }
 
@@ -166,7 +167,8 @@ span {
     text-align: center;
 }
 
-#about-me, #history-technique{
+#about-me,
+#history-technique {
     display: flex;
     flex-direction: column;
     padding: 0 3%;
@@ -200,7 +202,7 @@ span {
 
 /* History & Technique page */
 
-#history-technique{
+#history-technique {
     margin: 50px 0;
 }
 
@@ -209,7 +211,7 @@ span {
     margin-top: 50px;
 } */
 
-#video-container{
+#video-container {
     /* credit youtube video and website */
     aspect-ratio: 16 / 9;
     width: 100%;
@@ -324,7 +326,8 @@ footer {
         /* font-size: 18.5747px; */
     }
 
-    #about-me, #history-technique{
+    #about-me,
+    #history-technique {
         /* the below is already in the original css style */
         /* display: flex; */
         flex-direction: row;
@@ -341,8 +344,8 @@ footer {
         padding: 3% 3% 5%;
     }
 
-    /* History of Cross-stitch section */
-    #history-technique{
+    /* History & Technique page */
+    #history-technique {
         flex-wrap: wrap;
     }
 
@@ -354,7 +357,8 @@ footer {
         width: 100%;
         padding: inherit;
     }
-    #second-row{
+
+    #second-row {
         display: flex;
         justify-content: space-between;
         gap: inherit;
@@ -364,22 +368,30 @@ footer {
         padding: inherit;
     }
 
-    #stitch-technique{
-    width: 50%;
-    /* height: fit-content; */
-    padding: 20px 0 20px;
-    /* flex-basis: auto; */
-    /* margin-bottom: 20px; */
-    /* height: 100%; */
+    #stitch-technique {
+        width: 50%;
+        /* height: fit-content; */
+        padding: 20px 0 20px;
+        /* flex-basis: auto; */
+        /* margin-bottom: 20px; */
+        /* height: 100%; */
     }
 
-    #video-container{
-    width: 50%;
-    /* margin: 0 20px; */
-    height: 50%;
-    align-self: center;
+    #video-container {
+        width: 50%;
+        /* margin: 0 20px; */
+        height: 50%;
+        align-self: center;
 
     }
+
+    /* Portfolio page */
+    #images img{
+        width: 100%;
+        
+    }
+
+
     /* Footer */
 
 }
