@@ -193,7 +193,11 @@ span {
     background: url("../images/IMG_3974-edited.jpg") no-repeat center center/cover;
 }
 
-
+#video-container{
+    /* credit youtube video and website */
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
 
 /* Footer */
 footer {
@@ -283,7 +287,6 @@ footer {
         margin-top: 150px;
     }
 
-    /* Footer */
 }
 
 /* Media query for large devices (992px and up) */
