@@ -161,7 +161,7 @@ span {
     text-align: center;
 }
 
-#about-me{
+#about-me, #history-technique{
     display: flex;
     flex-direction: column;
     padding: 0 3%;
@@ -308,8 +308,9 @@ footer {
         /* font-size: 18.5747px; */
     }
 
-    #about-me{
-        display: flex;
+    #about-me, #history-technique{
+        /* the below is already in the original css style */
+        /* display: flex; */
         flex-direction: row;
         justify-content: space-between;
         gap: 50px;
@@ -325,20 +326,44 @@ footer {
     }
 
     /* History of Cross-stitch section */
-    .history-technique{
-        
+    #history-technique{
+        flex-wrap: wrap;
     }
 
     #stitch-history {
-        order: 0;
-        flex-grow: 2;
+        /* order: 0;
+        flex-grow: 2; */
         flex-direction: row;
         justify-content: center;
         background-color: purple;
+        width: 100%;
+        padding: inherit;
+    }
+    #second-row{
+        display: flex;
+        justify-content: space-between;
+        gap: inherit;
+        /* padding: inherit; */
+        /* margin-bottom: 20px; */
+        height: 100%;
     }
 
-    #about-me #second-row{
-        background-color: green;
+    #stitch-technique{
+    width: 50%;
+    /* height: fit-content; */
+    padding: 20px 0 20px;
+    /* flex-basis: auto; */
+    /* margin-bottom: 20px; */
+    background-color: pink;
+    /* height: 100%; */
+    }
+
+    #video-container{
+    width: 50%;
+    /* margin: 0 20px; */
+    height: 50%;
+    align-self: center;
+}
     }
     /* Footer */
 
