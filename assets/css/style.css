@@ -32,9 +32,14 @@ h3 {
     text-align: center;
 }
 
-p {
+p,
+ul>li {
     line-height: 1.75;
 
+}
+
+li {
+    list-style: none;
 }
 
 /* Header */
@@ -145,7 +150,7 @@ main {
     max-height: 300px;
 }
 
-/* About me section */
+/* About me/ landing page */
 
 span {
     font-family: "Marck Script", cursive;
@@ -218,13 +223,13 @@ span {
 }
 
 /* Portfolio page */
-#images img{
+#images img {
     width: 100%;
     line-height: 1em;
     border: 5px solid white;
 }
 
-#images{
+#images {
     line-height: 0;
 }
 
@@ -277,7 +282,7 @@ footer {
 
 /* Media query for tables and larger (576px and up) */
 @media screen and (min-width: 576px) {
-    #images{
+    #images {
         column-count: 2;
         column-gap: 0;
     }
@@ -325,7 +330,7 @@ footer {
         margin-top: 150px;
     }
 
-    #images{
+    #images {
         column-count: 3;
     }
 }
@@ -368,6 +373,7 @@ footer {
     }
 
     /* History & Technique page */
+
     #history-technique {
         flex-wrap: wrap;
     }
@@ -404,10 +410,17 @@ footer {
         width: 50%;
         /* margin: 0 20px; */
         height: 50%;
-        align-self: center;
+        /* align-self: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    #images{
+    #video-container>iframe{
+        margin-top: 105px;
+    }
+
+    #images {
         column-count: 4;
     }
 
