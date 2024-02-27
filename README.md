@@ -7,15 +7,14 @@ Cross Stitch Art is a portfolio website showcasing the development and progressi
 
 The website is responsive across a range of devices, is accessible and easy to navigate for all user audiences.
 
-Cross Stitch Art was primarily created for educational purposes as part of Code Institute's Web Develpment Diploma course, HTML and CSS portfolio project. 
+Cross Stitch Art was primarily created for educational purposes as part of Code Institute's Web Develpment Diploma course, for HTML and CSS portfolio project. 
 
 There is scope to continue developing and make the website an active portfolio platform in the future.
 
-Link to live page: [Cross-Stitch-Art](#deployment)
+Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-Art/)
 
 ## Contents
 [Features](#features)
-- [Features left of implement](#features-left-to-implement)
 
 [Design](#design)
 - [User Stories](#user-stories)
@@ -45,7 +44,7 @@ Link to live page: [Cross-Stitch-Art](#deployment)
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Portfolio/Contact page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Portfolio/Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](image url to the nav bar)
@@ -124,7 +123,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://laurakond.github.io/Cross-Stitch-Art/
 
 
 ## Tools and Technologies
