@@ -392,7 +392,7 @@ footer {
         justify-content: space-between;
         gap: inherit;
         /* padding: inherit; */
-        /* margin-bottom: 20px; */
+        margin-bottom: 50px;
         height: 100%;
         padding: inherit;
     }
