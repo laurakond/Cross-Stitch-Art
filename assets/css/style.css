@@ -282,6 +282,9 @@ footer {
 
 /* Media query for tables and larger (576px and up) */
 @media screen and (min-width: 576px) {
+    
+    
+    
     #images {
         column-count: 2;
         column-gap: 0;
@@ -420,6 +423,7 @@ footer {
         margin-top: 105px;
     }
 
+    /* Portfolio page */
     #images {
         column-count: 4;
     }
