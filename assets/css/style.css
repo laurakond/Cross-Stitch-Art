@@ -240,7 +240,7 @@ span {
 }
 
 #images {
-    margin: 0 2%;
+    margin: 0 5%;
     /* line-height: 3em;
     justify-content: center;
     align-self: center;
@@ -250,7 +250,9 @@ span {
 #images img {
     width: 100%;
     display: flex;
-    border: 20px solid white;
+    margin-bottom: 10%;
+    /* border: 20px solid white; */
+    /* border-bottom: 20px solid white; */
     /* align-items: center; */
     /* width: 90%;
     line-height: 1em;
@@ -259,6 +261,24 @@ span {
     /* border: 5px solid white; */
 }
 
+/* Text overlay */
+.text-overlay-middle{
+    position: relative;
+    
+}
+
+.text-content-middle{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* padding-left: 20px; */
+    /* margin-left: 20px; */
+}
 
 /* Footer */
 footer {
