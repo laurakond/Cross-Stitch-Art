@@ -224,9 +224,14 @@ span {
 
 /* Portfolio page */
 
+#portfolio-blurb{
+    margin: 50px 0;
+}
+
+
 #portfolio-gallery{
-    background-color: black;
-    padding: 20px 10px 0;
+    padding: 3% 0;
+    margin-bottom: 15%;
     /*display: flex;
     justify-content: center;
     align-items: center;
@@ -235,7 +240,7 @@ span {
 }
 
 #images {
-    margin: 0 10px;
+    margin: 0 2%;
     /* line-height: 3em;
     justify-content: center;
     align-self: center;
@@ -245,7 +250,7 @@ span {
 #images img {
     width: 100%;
     display: flex;
-    border-bottom: 20px solid;
+    border: 20px solid white;
     /* align-items: center; */
     /* width: 90%;
     line-height: 1em;
@@ -253,8 +258,6 @@ span {
     align-self: center; */
     /* border: 5px solid white; */
 }
-
-
 
 
 /* Footer */
@@ -306,12 +309,21 @@ footer {
 /* Media query for tables and larger (576px and up) */
 @media screen and (min-width: 576px) {
     
+    /* Portfolio Page */
     
-    
+    /* #portfolio-gallery{
+        padding-bottom: 20px;
+    } */
+
+
     #images {
-        column-count: 2;
-        column-gap: 0;
+        /* column-count: 2; */
+        /* column-gap: 0; */
     }
+
+    /* #images img{
+        border: 20px solid;
+    } */
 }
 
 /* Media query for tables and larger (768px and up) */
@@ -353,8 +365,10 @@ footer {
 
     /* Main content */
     main {
-        margin-top: 150px;
+        margin-top: 160px;
     }
+
+/* Portfolio */
 
     #images {
         column-count: 3;
@@ -371,19 +385,14 @@ footer {
     }
 
     /* Main */
-    /* Remove the below as I don't think it's needed */
-    /* #container-box {
-        width: 95%;
-    } */
 
+    /* Landing Page */
     #welcome p {
         /* font-size: 18.5747px; */
     }
 
     #about-me,
     #history-technique {
-        /* the below is already in the original css style */
-        /* display: flex; */
         flex-direction: row;
         justify-content: space-between;
         gap: 50px;
@@ -405,8 +414,6 @@ footer {
     }
 
     #stitch-history {
-        /* order: 0;
-        flex-grow: 2; */
         flex-direction: row;
         justify-content: center;
         width: 100%;
@@ -417,7 +424,6 @@ footer {
         display: flex;
         justify-content: space-between;
         gap: inherit;
-        /* padding: inherit; */
         margin-bottom: 50px;
         height: 100%;
         padding: inherit;
@@ -425,18 +431,12 @@ footer {
 
     #stitch-technique {
         width: 50%;
-        /* height: fit-content; */
         padding: 20px 0 20px;
-        /* flex-basis: auto; */
-        /* margin-bottom: 20px; */
-        /* height: 100%; */
     }
 
     #video-container {
         width: 50%;
-        /* margin: 0 20px; */
         height: 50%;
-        /* align-self: center; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -447,8 +447,9 @@ footer {
     }
 
     /* Portfolio page */
+
     #images {
-        column-count: 4;
+        /* column-count: 4; */
     }
 
     /* Footer */
@@ -465,13 +466,7 @@ footer {
     }
 
     /* Main */
-    /* #about-me{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 50px;
-        margin: 20px auto 50px;
-    } */
+   
 
     /* Footer */
 
