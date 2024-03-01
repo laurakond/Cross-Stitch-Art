@@ -318,8 +318,8 @@ footer {
 
     /* Header  */
     header {
-        justify-content: space-evenly;
-        padding: 5px 10px;
+        justify-content: space-between;
+        padding: 5px 7%;
 
     }
 
