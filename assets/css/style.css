@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     /* Other general project styles */
     font-family: "Roboto", sans-serif;
+    color: #2e0e02;
 }
 
 h1,
@@ -24,6 +25,7 @@ h2 {
     font-size: 300%;
     margin-bottom: 20px;
     text-align: center;
+    color: #D36D0D;
 }
 
 h3 {
@@ -35,7 +37,6 @@ h3 {
 p,
 ul>li {
     line-height: 1.75;
-
 }
 
 li {
@@ -44,7 +45,7 @@ li {
 
 /* Header */
 header {
-    background-color: yellow;
+    background-color: #003844;
     padding: 5px 7px;
     position: fixed;
     z-index: 50;
@@ -57,6 +58,7 @@ header {
 
 header a {
     text-decoration: none;
+    color: #f4ecd6;
 }
 
 label>i {
@@ -65,13 +67,14 @@ label>i {
 
 /* Style for the logo of the header */
 #logo {
-    color: green;
+    color: #D36D0D;
+    font-weight: bold;
 }
 
 /* Menu list with drop down toggle */
 #list-menu {
     position: absolute;
-    background-color: yellow;
+    background-color: #003844;
     width: 100%;
     left: 0;
     padding: 0 10px;
@@ -97,7 +100,7 @@ label>i {
 }
 
 .active {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #f4ecd6;
 }
 
 /* Nav-toggle */
@@ -112,17 +115,16 @@ label>i {
 /* Increases drop down icon size */
 .nav-toggle-label {
     font-size: 2rem;
+    color: #f4ecd6;
 }
 
 /* Main */
 main {
-    background-color: lightcyan;
+    background-color: #f5f5f5;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Adjusts main content to the margin of the header */
     margin-top: 51px;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 #introduction-to-stitch,
@@ -150,16 +152,17 @@ main {
     max-height: 300px;
 }
 
-/* About me/ landing page */
+/* About me landing page */
 
 span {
     font-family: "Marck Script", cursive;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 200%;
+    color: #D36D0D;
 }
 
 #container-box {
-    /* Width 90% does not spread the content to the sides of the margin leacing some breathing space to style accordingly. */
+    /* Width 90% does not spread the content to the sides of the margin leaving some breathing space to style accordingly. */
     width: 90%;
     margin: 0 auto;
 }
@@ -184,11 +187,6 @@ span {
     margin: 20px auto 40px;
 }
 
-/* #introduction-to-stitch,
-#finding-niche, #stitch-history {
-    margin-top: 20px;
-} */
-
 #span-container p {
     line-height: revert;
     text-align: right;
@@ -211,11 +209,6 @@ span {
     margin: 50px 0;
 }
 
-/* 
-#stitch-history{
-    margin-top: 50px;
-} */
-
 #video-container {
     /* credit youtube video and website */
     aspect-ratio: 16 / 9;
@@ -224,12 +217,11 @@ span {
 
 /* Portfolio/Gallery page */
 
-.portfolio-blurb{
+.portfolio-blurb {
     margin: 50px 0;
 }
 
-
-#portfolio-gallery{
+#portfolio-gallery {
     padding: 3% 0;
     margin-bottom: 10%;
     /*display: flex;
@@ -239,63 +231,49 @@ span {
     margin: auto; */
 }
 
-#images, #current-project-container {
+#images,
+#current-project-container {
     margin: 0 5%;
-    /* line-height: 3em;
-    justify-content: center;
-    align-self: center;
-    margin: auto; */
 }
 
-#images img, #current-project-image img {
+#images img,
+#current-project-image img {
     width: 100%;
     display: flex;
     margin-bottom: 10%;
-    /* border: 20px solid white; */
-    /* border-bottom: 20px solid white; */
-    /* align-items: center; */
-    /* width: 90%;
-    line-height: 1em;
-    justify-content: center;
-    align-self: center; */
-    /* border: 5px solid white; */
 }
 
 /* Text overlay */
 
-.text-overlay{
+.text-overlay {
     position: relative;
 }
 
-.text-content{
-  position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+.text-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(46, 14, 2, 0.5);
+    color: #f5f5f5;
+    width: 100%;
+    padding: 20px;
 }
 
-.text-overlay-middle{
+.text-overlay-middle {
     position: relative;
 }
 
-.text-content-middle{
+.text-content-middle {
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     padding: 20px 0 20px 20px;
-    /* padding-top: 20px; */
-    /* padding-bottom: 20px; */
-    /* padding-left: 20px; */
-    /* margin-left: 20px; */
 }
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #003844;
 }
 
 .social-media-tabs {
@@ -309,7 +287,7 @@ footer {
 .social-media-tabs i {
     font-size: 160%;
     padding: 5%;
-    /* set color */
+    color: #f4ecd6;
 }
 
 
@@ -320,7 +298,6 @@ footer {
     header {
         justify-content: space-between;
         padding: 5px 7%;
-
     }
 
     #list-menu {
@@ -341,13 +318,8 @@ footer {
 
 /* Media query for tables and larger (576px and up) */
 @media screen and (min-width: 576px) {
-    
-    /* Portfolio Page */
-    
-    /* #portfolio-gallery{
-        padding-bottom: 20px;
-    } */
 
+    /* Portfolio Page */
 
     #images {
         /* column-count: 2; */
@@ -401,32 +373,32 @@ footer {
         margin-top: 160px;
     }
 
-/* Portfolio */
+    /* Portfolio */
 
-    #portfolio-gallery{
+    #portfolio-gallery {
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
         justify-content: center;
     }
 
-    .text-overlay-middle{
+    .text-overlay-middle {
         position: relative;
         top: 10%;
-    }  
+    }
 
     #images {
         column-count: 3;
     }
-    
-    #current-project-container img{
+
+    #current-project-container img {
         /* display: flex; */
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
-    
-    #current{
+
+    #current {
         width: 50%;
         left: 25%;
     }
@@ -499,11 +471,9 @@ footer {
         align-items: center;
     }
 
-    #video-container>iframe{
+    #video-container>iframe {
         margin-top: 105px;
     }
-
-    
 }
 
 /* Media query for large devices (1200px and up) */
@@ -512,25 +482,20 @@ footer {
     /* Header */
 
     #menu a:hover {
-        border-bottom: 1px solid #000;
+        border-bottom: 2px solid #f4ecd6;
     }
 
-    /* Main */
-   
-/* Portfolio Page */
+    /* Portfolio Page */
 
-#current-project-container img{
-    /* display: flex; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
+    #current-project-container img {
+        /* display: flex; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
 
-#current{
-    width: 75%;
-    left: 12.5%;
-}
-
-    /* Footer */
-
+    #current {
+        width: 75%;
+        left: 12.5%;
+    }
 }
