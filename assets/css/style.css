@@ -224,14 +224,14 @@ span {
 
 /* Portfolio/Gallery page */
 
-#portfolio-blurb{
+.portfolio-blurb{
     margin: 50px 0;
 }
 
 
 #portfolio-gallery{
     padding: 3% 0;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     /*display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +239,7 @@ span {
     margin: auto; */
 }
 
-#images {
+#images, #current-project-container {
     margin: 0 5%;
     /* line-height: 3em;
     justify-content: center;
@@ -247,7 +247,7 @@ span {
     margin: auto; */
 }
 
-#images img {
+#images img, #current-project-image img {
     width: 100%;
     display: flex;
     margin-bottom: 10%;
@@ -268,18 +268,16 @@ span {
 }
 
 .text-content{
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 .text-overlay-middle{
     position: relative;
-    
 }
 
 .text-content-middle{
@@ -405,6 +403,25 @@ footer {
 
 /* Portfolio */
 
+    #portfolio-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    #current-project-container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #current-project-image #text-content{
+        width: 50%;
+        left: 25%;
+    }
+
     #images {
         column-count: 3;
     }
@@ -480,14 +497,6 @@ footer {
     #video-container>iframe{
         margin-top: 105px;
     }
-
-    /* Portfolio page */
-
-    #images {
-        /* column-count: 4; */
-    }
-
-    /* Footer */
 
 }
 
