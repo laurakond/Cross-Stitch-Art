@@ -420,7 +420,7 @@ footer {
     }
     
     #current-project-container img{
-        display: block;
+        /* display: flex; */
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -503,6 +503,7 @@ footer {
         margin-top: 105px;
     }
 
+    
 }
 
 /* Media query for large devices (1200px and up) */
@@ -516,6 +517,19 @@ footer {
 
     /* Main */
    
+/* Portfolio Page */
+
+#current-project-container img{
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#current{
+    width: 75%;
+    left: 12.5%;
+}
 
     /* Footer */
 
