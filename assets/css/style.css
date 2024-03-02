@@ -30,7 +30,7 @@ h2 {
 
 h3 {
     font-size: 200%;
-    margin: 10px 0 30px;
+    margin: 10px 0 40px;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ main {
 
 #profile-image-circle {
     background-color: green;
-    margin: 50px 0 30px;
+    margin: 80px 0 30px;
     height: 180px;
     width: 180px;
     background: url("../images/profile-image-edited2.jpg") no-repeat center center/cover;
@@ -216,6 +216,10 @@ span {
 }
 
 /* Portfolio/Gallery page */
+
+#portfolio{
+    margin-top: 80px;
+}
 
 .portfolio-blurb {
     margin: 50px 0;
@@ -425,7 +429,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         gap: 50px;
-        margin: 20px auto 30px;
+        margin: 50px auto 30px;
     }
 
     .paragraph {
@@ -472,7 +476,7 @@ footer {
     }
 
     #video-container>iframe {
-        margin-top: 105px;
+        margin-top: 115px;
     }
 }
 
