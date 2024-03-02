@@ -100,7 +100,7 @@ label>i {
 }
 
 .active {
-    border-bottom: 2px solid #f4ecd6;
+    border-bottom: 2px solid #D36D0D;
 }
 
 /* Nav-toggle */
@@ -410,7 +410,7 @@ footer {
     /* Header */
 
     #menu a:hover {
-        border-bottom: 1px solid #000;
+        border-bottom: 2px solid #D36D0D;
     }
 
     /* Main */
@@ -482,7 +482,7 @@ footer {
     /* Header */
 
     #menu a:hover {
-        border-bottom: 2px solid #f4ecd6;
+        border-bottom: 2px solid #D36D0D;
     }
 
     /* Portfolio Page */
