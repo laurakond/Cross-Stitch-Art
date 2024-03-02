@@ -153,7 +153,6 @@ main {
 }
 
 /* About me landing page */
-
 span {
     font-family: "Marck Script", cursive;
     font-weight: bold;
@@ -204,7 +203,6 @@ span {
 }
 
 /* History & Technique page */
-
 #history-technique {
     margin: 50px 0;
 }
@@ -216,7 +214,6 @@ span {
 }
 
 /* Portfolio/Gallery page */
-
 #portfolio{
     margin-top: 80px;
 }
@@ -227,12 +224,7 @@ span {
 
 #portfolio-gallery {
     padding: 3% 0;
-    margin-bottom: 10%;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: auto; */
+    margin-bottom: 80px;
 }
 
 #images,
@@ -248,7 +240,6 @@ span {
 }
 
 /* Text overlay */
-
 .text-overlay {
     position: relative;
 }
@@ -320,21 +311,6 @@ footer {
     }
 }
 
-/* Media query for tables and larger (576px and up) */
-@media screen and (min-width: 576px) {
-
-    /* Portfolio Page */
-
-    #images {
-        /* column-count: 2; */
-        /* column-gap: 0; */
-    }
-
-    /* #images img{
-        border: 20px solid;
-    } */
-}
-
 /* Media query for tables and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -378,7 +354,6 @@ footer {
     }
 
     /* Portfolio */
-
     #portfolio-gallery {
         display: flex;
         flex-wrap: wrap;
@@ -396,9 +371,7 @@ footer {
     }
 
     #current-project-container img {
-        /* display: flex; */
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 80px;
         width: 50%;
     }
 
@@ -412,18 +385,13 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* Header */
-
     #menu a:hover {
         border-bottom: 2px solid #D36D0D;
     }
 
     /* Main */
-
+    
     /* Landing Page */
-    #welcome p {
-        /* font-size: 18.5747px; */
-    }
-
     #about-me,
     #history-technique {
         flex-direction: row;
@@ -441,7 +409,6 @@ footer {
     }
 
     /* History & Technique page */
-
     #history-technique {
         flex-wrap: wrap;
     }
@@ -488,9 +455,9 @@ footer {
     #menu a:hover {
         border-bottom: 2px solid #D36D0D;
     }
+    /* Main */
 
     /* Portfolio Page */
-
     #current-project-container img {
         /* display: flex; */
         margin-left: auto;
