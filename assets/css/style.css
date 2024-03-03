@@ -215,6 +215,10 @@ span {
     font-weight: bold;
 }
 
+.steps>ul:first-child{
+    padding-bottom: 20px;
+}
+
 #video-container {
     /* credit youtube video and website */
     aspect-ratio: 16 / 9;
