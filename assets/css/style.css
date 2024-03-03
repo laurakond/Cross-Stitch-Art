@@ -213,6 +213,11 @@ span {
     width: 100%;
 }
 
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 /* Portfolio/Gallery page */
 #portfolio{
     margin-top: 80px;
