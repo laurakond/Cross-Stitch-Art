@@ -211,6 +211,18 @@ span {
     margin: 50px 0 80px;
 }
 
+/* .steps ul{
+    font-weight: none;
+} */
+
+.steps:first-line{
+    font-weight: bold;
+}
+
+/* .not-steps li{
+    font-weight: normal;
+} */
+
 #video-container {
     /* credit youtube video and website */
     aspect-ratio: 16 / 9;
