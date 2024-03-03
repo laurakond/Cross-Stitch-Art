@@ -39,6 +39,10 @@ ul>li {
     line-height: 1.75;
 }
 
+p>i{
+    color: #2e0e02;
+}
+
 li {
     list-style: none;
 }
@@ -269,6 +273,42 @@ iframe{
     color: #f1f1f1;
     width: 100%;
     padding: 20px 0 20px 20px;
+}
+
+/* 404 error page */
+#error-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#message-404-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#message-content{
+    font-size: 110%;
+}
+
+#message-content>h2{
+    margin: 0;
+}
+
+#message-content>p{
+    text-align: center;
+    padding: 10px;
+}
+
+#message-content a{
+    text-decoration: none;
+    color: #D36D0D;
+    font-weight: bold;
 }
 
 /* Footer */
