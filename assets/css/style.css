@@ -149,7 +149,7 @@ main {
     margin: 80px 0 30px;
     height: 180px;
     width: 180px;
-    background: url("../images/profile-image-edited2.jpg") no-repeat center center/cover;
+    background: url("../images/profile-image-edited2.webp") no-repeat center center/cover;
     border-radius: 50%;
     /* Ensures image doesn't exceed 300px when scaled*/
     max-width: 300px;
@@ -203,7 +203,7 @@ span {
     height: 25vh;
     width: 100%;
     /* forward slash between position and size */
-    background: url("../images/landscape-image.jpg") no-repeat center center/cover;
+    background: url("../images/landscape-image.webp") no-repeat center center/cover;
 }
 
 /* History & Technique page */
