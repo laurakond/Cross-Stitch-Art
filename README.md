@@ -16,27 +16,38 @@ The Cross Stitch Art was primarily created for educational purposes as part of C
 
 Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-Art/)
 
-## Contents
-[Features](#features)
+
+## Table of Contents
 
 [Design](#design)
+- [Target audience](#target-audience)
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
 - [Colour palette](#Colour-palette)
 - [Font styles](#font-styles)
 
-[Development](#development)
-- [Testing](#testing)
-- [Validator testing](#validator-testing)
-- [Unfixed bugs](#unfixed-bugs)
+[Features](#features)
+ - [Existing features](#existing-features)
+ - [Features Left to Implement](#features-left-to-implement)
+ - [Accessibility](#accessibility)
+
+[Tools and Technologies](#tools-and-technologies)
+- [Languages used](#languages-used)
+- [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
 
 [Deployment](#deployment)
 
-[Tools and technologies](#tools-and-technologies)
+[Testing](#testing)
+- [W3C Validator testing](#validator-testing)
+- [Unfixed bugs](#unfixed-bugs)
+- [Lighthouse](#lighthouse)
 
 [Credits](#credits)
+- [Used Code](#used-code)
 - [Content](#content)
 - [Media](#media)
+- [General resources](#general-resources)
+- [Acknowledgments](#acknowledgments)
 - [Code Inspiration](#code-inspiration)
 
 
