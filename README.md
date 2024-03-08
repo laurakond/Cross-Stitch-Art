@@ -74,6 +74,33 @@ Owner of the website:
 - As the owner of the site, I want to share my passion for art using a different medium
 - As the owner of the site, I want the users to be able to connect with me
 
+### Wireframes
+The following wireframe mockups show initial idea of how the website would look on three different devices: mobile, tablets and laptops/desktops.
+
+#### Mobile 
+
+![mobile-wireframe](documentation/wireframes/mobile-wireframe.JPG)
+
+#### Tablet
+
+![tablet-wireframe](documentation/wireframes/tablet-wireframe.JPG)
+  
+  #### Laptop/Desktop
+
+![desktop wireframe](documentation/wireframes/desktop-wireframe.JPG)
+
+### Colour palette
+
+The following color scheme was used to ensure contrast is achieved between main parts of the website:
+- #F5F5F5 - White smoke - for main background
+- #003844 - Midnight green - for header and footer background
+- #F4ECD6 - Parchment - for font and icons in the header and footer sections
+- #D36D0D - Cocoa brown - for the website logo and to put accent on particular parts of the content
+- #2E0E02 - Black bean - for main font color
+
+![color-palette](documentation/colour-palette.JPG)
+
+
 ## Features 
 
 
