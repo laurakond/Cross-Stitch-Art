@@ -2,8 +2,6 @@
 
 (By Laura Kondrataite)
 
-  
-
 ![Cross Stitch Art website responsiveness on various devices](assets/documentation/am-i-responsive-all-pages.jpg)
 
 The Cross Stitch Art is a cross-stitch portfolio website showcasing the development and progression of cross-stitch embroidery of one individual. Users will be able to read about the crafter, familiarise with the history of cross-stitch embroidery, delve into the craft of cross-stich by watching a video and view a portfolio gallery showcasing the crafter's completed and current projects. The user will also find contact information in order to get in touch with the crafter.
@@ -23,7 +21,7 @@ Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-A
 - [Target audience](#target-audience)
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
-- [Colour palette](#colour-palette)
+- [Color palette](#color-palette)
 - [Font styles](#font-styles)
 
 [Features](#features)
@@ -55,7 +53,6 @@ Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-A
 
 ### Target audience
 The primary target audience for the website is persons of any gender aged 16+ who enjoy crafts, are interested in or already doing crafts themselves. No specific background, geographical location or income has been noted as a requirement. 
-
 
 ### User Stories
 Users:
@@ -89,7 +86,7 @@ The following wireframe mockups show initial idea of how the website would look 
 
 ![desktop wireframe](assets/documentation/wireframes/desktop-wireframe.jpg)
 
-### Colour palette
+### Color palette
 
 The following color scheme was used to ensure contrast is achieved between main parts of the website:
 - #F5F5F5 - White smoke - for main background
@@ -108,7 +105,6 @@ I used [Google fonts](https://fonts.google.com/) to source fonts for the website
 - Marck Script, cursive - was used for the logo and provide accent pieces to the website. 
  
  [Return to Table of Contents](#table-of-contents)
-
 
 ## Features
 
@@ -212,6 +208,7 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
   - Include an Etsy link in the footer that would take the user to the crafter's Etsy page.
 
 ### Accessibility
+
   - I have followed good accessibility stardard practices by including the following:
 	  - I used semantic HTML.
 	  - I included descriptive atl attributes to used images. 
@@ -222,6 +219,7 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
  [Return to Table of Contents](#table-of-contents)
 
 ## Tools and Technologies
+
 ### Languages used
 
 HTML and CSS languages were used for creating this website.
@@ -246,6 +244,7 @@ The following resources were used to help implement the website:
  [Return to Table of Contents](#table-of-contents)
 
 ## Deployment
+
 This website was deployed using GitHub pages. The steps to deploy are as follows:
 
 1. Login to GitHub and navigate to the repository page (Cross-Stitch-Art), click on the chosen repository.
@@ -262,9 +261,11 @@ The live link to Cross Stitch Art can be found here: [Cross Stitch Art](https://
 
 
 ## Testing 
+
 The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile. 
 
 ###  W3C Validator Testing
+
 All HTML pages and CSS file were tested against W3C Markup and CSS validation services.
 
 **HTML**
@@ -288,6 +289,7 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
 - No errors were found when passing through the official W3C CSS validator. Screenshot of the test result can be seen [here](assets/documentation/testing/w3c/css-w3c-test.jpg). 
 
 ### Unfixed Bugs
+
 - Embedded YouTube video has come with third party and reading cookies that are detected when using Chrome DevTools feature, this cannot be altered. This bug is also affecting the Lighthouse Performance score.
 
   ![Third party cookies](assets/documentation/testing/lighthouse/3rd-party-cookies.jpg)
@@ -297,40 +299,48 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
 - "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'" message appears when running Lighthouse via Chrome DevTools. Upon further research into the matter it appears that it does not affect the usability of the site, however, it is caused due to Github blocking data being gathered for FLoC. 
   
 ### Lighthouse
+
 Lighthouse scores vary depending on each page and whether it is a desktop or a mobile. I have listed the main denominators that are causing a drop in scores. Each of these is something to look into at the next development stage. 
 
 #### The Home page
+
 - Performance score is affected due to cache policy and render-blocking resources. The latter can be prevented by the use of JavaScript. 
 	- **Desktop test score:**
 
-  ![Home page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-index.jpg)
+      ![Home page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-index.jpg)
+
 	- **Mobile test score:**
   
-  ![Home page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-index.jpg)
+      ![Home page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-index.jpg)
 
 #### The History & Technique page
+
 - Performance score is affected by"Page prevented back/forward cache restoration" error which is described in the [Unfixed Bugs](#unfixed-bugs) section.
 - Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections. 
 - Best Practice score is affected due to the mentioned third party and reading cookies in the [Unfixed Bugs](#unfixed-bugs) section that are caused by the video content.  
 	- **Desktop test score:**
 	
       ![History page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-history.jpg)
+
 	- **Mobile test score:**
 
       ![History page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-history.jpg)
 
 #### The Portfolio page
+
 - Performance score is affected due to the use of high-quality image files that I supplied myself. The images have been compressed and reduced in size as much as possible, however, further reductions would cause poor image quality with visible pixelation on bigger screens. This is something to address in the next development stage.
 - Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections, also mentioned in the History page. 
 	- **Desktop test score:**
 
 	    ![Portfolio page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-portfolio.jpg)
+      
 	- **Mobile test score:**
 
 	    ![Portfolio page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-portfolio.jpg)
 
 #### 404 page
-- Accessibility score is affected due to the use of lighter colour font against the background colour.
+
+- Accessibility score is affected due to the use of lighter color font against the background color.
 - Performance score in mobile is affected due to static cache assets that could be resolved with JavaScript and better coding practices.
 - SEO score is affected as the chosen "Click here" link name is not considered descriptive enough.
   - **Desktop test score:**
@@ -348,25 +358,31 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 The following resources have been used in preparation to and while creating the Cross Stitch Art website:
 
 ### Content
+
 The content for the home and portfolio pages was written by me. Due to time contraints the content for the History & Technique page was taken from the following sources and adapted to fit the purpose of the website:
 - [Stitched Modern](https://stitchedmodern.com/blogs/news/a-beginners-guide-to-cross-stitch) content from "What is cross-stitch" section.
 - [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/blogs/blog/the-history-of-cross-stitch) content from "The History of cross-stitch" section.
 - [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/pages/info) "How to Cross-stitch" content was used to provide the five-step list. 
 
 ### Used code
+
 - W3Schools for [centering text overlay](https://www.w3schools.com/howto/howto_css_image_text.asp), for [centering an image](https://www.w3schools.com/howto/howto_css_image_center.asp), and for [centering profile image](https://www.w3schools.com/howto/howto_css_image_avatar.asp).
 - [An article on how to style a video iframe](https://yoast.com/how-to-make-youtube-videos-responsive/).
 - Code Institute's Love Running project played a major part in allowing me to have a reference point for how to create the header & the footer and the overall web layout.
 
 ### Media
+
 #### Images
+
 All of the images apart from one were supplied by me. The following image has been taken from the Musee d'Orsay website:
 - [The Dance class at the foyer of Rue Le Peletier Musee d'Orsay](https://www.musee-orsay.fr/en/artworks/le-foyer-de-la-danse-lopera-de-la-rue-le-peletier-1152).
  
 #### Video
+
 - The video content was taken from the Caterpillar Cross Stitch Youtube [channel](https://www.youtube.com/@CaterpillarCrossStitch).
 
 #### General resources
+
 The following resources were used to better familiarise myself with various concepts and coding practices, for example Media Queries functionality:
 - [freeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
 - [Dani Krossing video on Youtube](https://www.youtube.com/watch?v=UUjNEMXZA-k)
@@ -382,12 +398,14 @@ Other websites used for general knowledge and minor troubleshooting during the w
 
 
 ### Acknowledgments
+
 My thanks goes to my mentor, [Martina Terlevic](https://github.com/SephTheOverwitch), for providing guidance, and support on all things code and project.
 
 I also want to thank the Slack community students for further guidance, cheering on and keeping the morale up. 
 
 
 ### Code inspiration
+
 Code Institute's Love Running project was used as an inspiration for the overall website layout and some concepts, including the code of the header and footer, the profile and the landscape detail image, and portfolio gallery image layout. 
 
  [Return to Table of Contents](#table-of-contents)
