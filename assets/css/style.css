@@ -364,7 +364,7 @@ footer {
     }
 }
 
-/* Media query for tables and larger (768px and up) */
+/* Media query for tables (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
