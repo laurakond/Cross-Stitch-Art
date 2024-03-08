@@ -60,7 +60,7 @@ Users:
 - As a user, I want to find out about cross-stitching and how to start doing it myself
 - As a user, I want to connect with other crafters
 - As a user, I want to navigate the website easily
-- As a user, I want to find a cross-stitching crafters that recreate works of art in embroidery
+- As a user, I want to find cross-stitching crafters that recreate works of art in embroidery
 - As a user, I want to follow the progress of the crafter and their projects' development
 - As a user, I want to be able to contact the crafter directly
 
@@ -165,7 +165,7 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
   ![technique section](assets/documentation/features/history-page/technique-section.jpg)
 
-- **The five-step cross-stitch list**. This sub-section provides the user with a detailed break down of how to start cross-stitching and gives tips for best practices. The list is interactive and can be expanded and minimized by clicking on a "Click here" arrow which provides further engagement with the content. 
+- **The five-step cross-stitch list**. This sub-section provides the user with a detailed break down list of how to start cross-stitching and gives tips for best practices. The list is interactive and can be expanded and minimized by clicking on a "Click here" arrow which provides further engagement with the content. 
 
   ![five step section](assets/documentation/features/history-page/five-steps-section2.jpg)
 
@@ -179,11 +179,11 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 **Portfolio Gallery** page is divided into two sections that allow the user to easily identify the type of cross-stitch projects are currently underway and which are completed. 
 
-- **Portfolio gallery** showcases all completed cross-stitch projects. The titles of each art work are written on a translucent background to give a better visual impact to the user. 
+- **Portfolio gallery** showcases all completed cross-stitch projects. The title of each art work is written on a translucent background to give a better visual impact to the user. 
 
   ![portfolio gallery section](assets/documentation/features/portfolio-page/portfolio-gallery-section.jpg) 
 
-- **Current projects** section shows cross-stitching work that is in progress and uses an original artwork's image until it is completed. 
+- **Current projects** section shows cross-stitching work that is in progress and uses the original artwork's image until it is completed. 
 
   ![current project section](assets/documentation/features/portfolio-page/current-project-section.jpg)
 
@@ -191,7 +191,7 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 <br>
 
-**404 Error page** has been included in case there are any bugs that prevent websites or links from working properly. 
+**404 Error page** has been included in case there are any bugs that prevent the website or links from working properly. 
 - The page has a stylised link that clearly indicates interactivity and takes the user back to the Home page of the website. 
 
   ![ 404 error page](assets/documentation/features/404-error-page.jpg)
@@ -209,7 +209,7 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 ### Accessibility
 
-  - I have followed good accessibility stardard practices by including the following:
+  - I have followed good standard accessibility practices by including the following:
 	  - I used semantic HTML.
 	  - I included descriptive atl attributes to used images. 
 	  - I marked the current page with the "current" attribute to ensure that screen readers indicate it to the users.
@@ -270,14 +270,14 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
 
 **HTML**
 - The first run of the History & Technique page through W3C validator returned an inline styling error for the iframe element. I subsequentially moved the inline styling to CSS stylesheet.
-	- A semantic error within the nested list element in the History & Technique page was returned because I used a header and a paragraph elements within the nested list. 
-	- I attemped multiple solutions but realised that none of the variations were semantically correct. This was resolved by applying a pseudo element "first-line" to the appropriate elements in the nested 'Five Steps' list. The solution was provided by the [Stack overflow](https://stackoverflow.com/questions/21793711/how-do-i-apply-a-bold-to-first-li-elements-in-nested-structure) website. Below is the code used:
+- A semantic error within the nested list element in the History & Technique page was returned because I used a header and a paragraph elements within the nested list. 
+  - I attemped multiple solutions but realised that none of the variations were semantically correct. This was resolved by applying a pseudo element "first-line" to the appropriate elements in the nested 'Five Steps' list. The solution was provided by the [Stack overflow](https://stackoverflow.com/questions/21793711/how-do-i-apply-a-bold-to-first-li-elements-in-nested-structure) website. Below is the code used:
 ```scss
 .steps:first-line{
   font-weight: bold;
 }
 ```    
-- The final run of the History & Technique page through the W3C validator returned no errors  W3C validator. 
+- The final run of the History & Technique page through the W3C validator returned no errors. 
 - Screenshots of all the test results can be seen below:
 	- [index.html](assets/documentation/testing/w3c/index-w3c-test.jpg) 
 	- [history.html](assets/documentation/testing/w3c/history-technique-w3c-test.jpg)
@@ -290,7 +290,7 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
 
 ### Unfixed Bugs
 
-- Embedded YouTube video has come with third party and reading cookies that are detected when using Chrome DevTools feature, this cannot be altered. This bug is also affecting the Lighthouse Performance score.
+- Embedded YouTube video has come with third party and reading cookies that are detected when using Chrome DevTools feature; this cannot be altered. This bug is also affecting the Lighthouse Performance score.
 
   ![Third party cookies](assets/documentation/testing/lighthouse/3rd-party-cookies.jpg)
   ![iframe cookies](assets/documentation/testing/lighthouse/iframe-3rd-party-cookies.jpg)
@@ -333,7 +333,7 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 	- **Desktop test score:**
 
 	    ![Portfolio page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-portfolio.jpg)
-      
+
 	- **Mobile test score:**
 
 	    ![Portfolio page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-portfolio.jpg)
@@ -359,10 +359,10 @@ The following resources have been used in preparation to and while creating the 
 
 ### Content
 
-The content for the home and portfolio pages was written by me. Due to time contraints the content for the History & Technique page was taken from the following sources and adapted to fit the purpose of the website:
+The content for the Home and Portfolio pages was written by me. Due to time contraints the content for the History & Technique page was taken from the following sources and adapted to fit the purpose of the website:
 - [Stitched Modern](https://stitchedmodern.com/blogs/news/a-beginners-guide-to-cross-stitch) content from "What is cross-stitch" section.
 - [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/blogs/blog/the-history-of-cross-stitch) content from "The History of cross-stitch" section.
-- [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/pages/info) "How to Cross-stitch" content was used to provide the five-step list. 
+- [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/pages/info) "How to cross-stitch" content was used to provide the five-step list. 
 
 ### Used code
 
