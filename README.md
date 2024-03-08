@@ -110,29 +110,26 @@ I used [Google fonts](https://fonts.google.com/) to source fonts for the website
  [Return to Table of Contents](#table-of-contents)
 
 
-## Features 
+## Features
 
+The website is comprised of four pages: a home page, a history & technique page, a portfolio page and an error 404 page. The latter is hidden from the user, and is only visible when a wrong website address is entered. 
 
-### Existing Features
+All features are fully responsive on mobile, tablets/iPads, laptops and desktops. 
 
-- __Navigation Bar__
+**The Header**
+![header-feature-desktop](documentation/features/header-feature-desktop.JPG)
+- Featured in all pages, the header is fully responsive and includes links to the Logo, Home page, History & Technique page and Portfolio page and is identical in each page. 
+- The header is fixed at the top of the page as the user scrolls down. This allows easy navigation from page to page across all devices without having to use the ‘back’ button to previous pages.
+- A feature border line appears under the active page's name indicating to the user the page they are on. 
+- On a mobile device, the header is changed to a logo and a burger toggle bar to ensure good user experience practice. Upon clicking on the burger bar, the rest of the navigation bar opens up underneath the logo. 
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Portfolio/Contact page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+    ![header-feature-mobile](documentation/features/header-feature-mobile.JPG)
 
-![Nav Bar](image url to the nav bar)
+    ![header-feature-mobile2](documentation/features/header-feature-mobile2.JPG)
 
-- __The landing page image__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Cross Stitch Art. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
-
-URL of the footer ![Footer](image URL to the footer)
+**The Footer**
+![enter image description here](documentation/features/footer-feature.JPG)
+- Featured in all the pages, the footer section contains links to relevant social media sites for Cross Stitch Art, including an Instagram page and a Github page. It also contains an email icon that opens an email screen upon clicking. All links open in a new tab to allow easy navigation for the user.
 
 - __The Video__
 
