@@ -23,7 +23,7 @@ Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-A
 - [Target audience](#target-audience)
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
-- [Colour palette](#Colour-palette)
+- [Colour palette](#colour-palette)
 - [Font styles](#font-styles)
 
 [Features](#features)
@@ -38,7 +38,7 @@ Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-A
 [Deployment](#deployment)
 
 [Testing](#testing)
-- [W3C Validator testing](#validator-testing)
+- [W3C Validator testing](#w3c-validator-testing)
 - [Unfixed bugs](#unfixed-bugs)
 - [Lighthouse](#lighthouse)
 
@@ -112,9 +112,11 @@ I used [Google fonts](https://fonts.google.com/) to source fonts for the website
 
 ## Features
 
-The website is comprised of four pages: a home page, a history & technique page, a portfolio page and an error 404 page. The latter is hidden from the user, and is only visible when a wrong website address is entered. 
+The website is comprised of four pages: a Home page, a History & Technique page, a Portfolio page and an Error 404 page. The latter is hidden from the user, and is only visible when a wrong website address is entered. 
 
 All features are fully responsive on mobile, tablets/iPads, laptops and desktops. 
+
+### Existing features
 
 **The Header**
 ![header-feature-desktop](documentation/features/header-feature-desktop.JPG)
@@ -333,7 +335,7 @@ The content for the home and portfolio pages was written by me. Due to time cont
 ### Used code
 - W3Schools for [centering text overlay](https://www.w3schools.com/howto/howto_css_image_text.asp), for [centering an image](https://www.w3schools.com/howto/howto_css_image_center.asp), and for [centering profile image](https://www.w3schools.com/howto/howto_css_image_avatar.asp).
 - [An article on how to style a video iframe](https://yoast.com/how-to-make-youtube-videos-responsive/).
-- Code Institute's Love Running project played a major part in allowing me to have a reference point of how to create the header & the footer and the overall web layout.
+- Code Institute's Love Running project played a major part in allowing me to have a reference point for how to create the header & the footer and the overall web layout.
 
 ### Media
 #### Images
