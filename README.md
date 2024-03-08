@@ -4,7 +4,7 @@
 
   
 
-![Cross Stitch Art website responsiveness on various devices](documentation/am-i-responsive-all-pages.JPG)
+![Cross Stitch Art website responsiveness on various devices](assets/documentation/am-i-responsive-all-pages.jpg)
 
 The Cross Stitch Art is a cross-stitch portfolio website showcasing the development and progression of cross-stitch embroidery of one individual. Users will be able to read about the crafter, familiarise with the history of cross-stitch embroidery, delve into the craft of cross-stich by watching a video and view a portfolio gallery showcasing the crafter's completed and current projects. The user will also find contact information in order to get in touch with the crafter.
 
@@ -79,15 +79,15 @@ The following wireframe mockups show initial idea of how the website would look 
 
 #### Mobile 
 
-![mobile-wireframe](documentation/wireframes/mobile-wireframe.JPG)
+![mobile-wireframe](assets/documentation/wireframes/mobile-wireframe.jpg)
 
 #### Tablet
 
-![tablet-wireframe](documentation/wireframes/tablet-wireframe.JPG)
+![tablet-wireframe](assets/documentation/wireframes/tablet-wireframe.jpg)
   
   #### Laptop/Desktop
 
-![desktop wireframe](documentation/wireframes/desktop-wireframe.JPG)
+![desktop wireframe](assets/documentation/wireframes/desktop-wireframe.jpg)
 
 ### Colour palette
 
@@ -98,7 +98,7 @@ The following color scheme was used to ensure contrast is achieved between main 
 - #D36D0D - Cocoa brown - for the website logo and to put accent on particular parts of the content
 - #2E0E02 - Black bean - for main font color
 
-![color-palette](documentation/colour-palette.JPG)
+![color-palette](assets/documentation/colour-palette.jpg)
 
 ### Font styles
 
@@ -119,18 +119,22 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 ### Existing features
 
 **The Header**
-![header-feature-desktop](documentation/features/header-feature-desktop.JPG)
+
+![header-feature-desktop](assets/documentation/features/header-feature-desktop.jpg)
 - Featured in all pages, the header is fully responsive and includes links to the Logo, Home page, History & Technique page and Portfolio page and is identical in each page. 
 - The header is fixed at the top of the page as the user scrolls down. This allows easy navigation from page to page across all devices without having to use the ‘back’ button to previous pages.
 - A feature border line appears under the active page's name indicating to the user the page they are on. 
 - On a mobile device, the header is changed to a logo and a burger toggle bar to ensure good user experience practice. Upon clicking on the burger bar, the rest of the navigation bar opens up underneath the logo. 
 
-    ![header-feature-mobile](documentation/features/header-feature-mobile.JPG)
+    ![header-feature-mobile](assets/documentation/features/header-feature-mobile.jpg)
 
-    ![header-feature-mobile2](documentation/features/header-feature-mobile2.JPG)
+    ![header-feature-mobile2](assets/documentation/features/header-feature-mobile2.jpg)
+
+<br>
 
 **The Footer**
-![enter image description here](documentation/features/footer-feature.JPG)
+
+![enter image description here](assets/documentation/features/footer-feature.jpg)
 - Featured in all the pages, the footer section contains links to relevant social media sites for Cross Stitch Art, including an Instagram page and a Github page. It also contains an email icon that opens an email screen upon clicking. All links open in a new tab to allow easy navigation for the user.
 
 <br>
@@ -139,19 +143,19 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 - **The profile photograph and a stylised wecome note** has been used to familiarise and engage the user to read on. 
 
-  ![profile image and welcome note](documentation/features/home-page/Welcome-feature-with-profile-image.JPG)
+  ![profile image and welcome note](assets/documentation/features/home-page/welcome-feature-with-profile-image.jpg)
 
 - **About the crafter section**. This section is split into two short paragraphs each delving deeper into the crafter's journey to discovering cross-stitching and identifying her niche. The content is kept short and simple so that the user feels engaged with the content.
 
-  ![about me section](documentation/features/home-page/about-me-section.JPG)
+  ![about me section](assets/documentation/features/home-page/about-me-section.jpg)
 
 - **Accent sentence** is used at the bottom of the "about section" that emphasises the website's creative flare. It also creates a natural website progression onto the following page that focuses on the history and technique of the cross-stitch. 
 
-  ![accent phrase](documentation/features/home-page/stand-out-phrase.JPG)
+  ![accent phrase](assets/documentation/features/home-page/stand-out-phrase.jpg)
 
 - **A detail image** of a cross-stitch at the bottom of the page is used to further engage the user with the content and create curiosity to visit the portfolio page. 
 
-  ![cross-stitch detail image](documentation/features/home-page/home-feature-image.JPG)
+  ![cross-stitch detail image](assets/documentation/features/home-page/home-feature-image.jpg)
 
 <br>  
 
@@ -159,22 +163,21 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 - **The History section**. This part fo the page provides a brief history of the cross-stitch as a type of embroidery, its use for practical sewing skills in earlier times and how it developed into a hobby in the mid-20th century. 
 
-  ![history section](documentation/features/history-page/history-section.JPG)
+  ![history section](assets/documentation/features/history-page/history-section.jpg)
 
 - **The Technique section**. Following the history section, this section gives a general overview of different aspects to consider when starting to cross-stitch. 
 
-  ![technique section](documentation/features/history-page/technique-section.JPG)
+  ![technique section](assets/documentation/features/history-page/technique-section.jpg)
 
 - **The five-step cross-stitch list**. This sub-section provides the user with a detailed break down of how to start cross-stitching and gives tips for best practices. The list is interactive and can be expanded and minimized by clicking on a "Click here" arrow which provides further engagement with the content. 
 
-  ![five step section](documentation/features/history-page/five-steps-section2.JPG)
+  ![five step section](assets/documentation/features/history-page/five-steps-section2.jpg)
 
 - **The video feature**  acts as a visual substitute to the five-step list allowing the user to interact with the content if they prefer video content as their learning material. 
 
-  ![video section](documentation/features/history-page/video-section.JPG)
+  ![video section](assets/documentation/features/history-page/video-section.jpg)
 
 - On large screens, the five-step list is located directly below the technique section with the video on the side in one row. Upon clicking the arrow, the list expands below. On smaller screens, such as smartphones, the five-step list and the video feature are placed directly below the technique section. 
-
 
 <br>
 
@@ -182,11 +185,11 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 - **Portfolio gallery** showcases all completed cross-stitch projects. The titles of each art work are written on a translucent background to give a better visual impact to the user. 
 
-  ![portfolio gallery section](documentation/features/portfolio-page/portfolio-gallery-section.JPG) 
+  ![portfolio gallery section](assets/documentation/features/portfolio-page/portfolio-gallery-section.jpg) 
 
 - **Current projects** section shows cross-stitching work that is in progress and uses an original artwork's image until it is completed. 
 
-  ![current project section](documentation/features/portfolio-page/current-project-section.JPG)
+  ![current project section](assets/documentation/features/portfolio-page/current-project-section.jpg)
 
 - On smaller screens both sections show one image per line allowing the user to easily scroll down and view them individually. On larger screens the portfolio gallery section is placed in three columns and two rows to accommodate all of the images together in a smaller space, creating an eye pleasing image gallery. 
 
@@ -195,7 +198,7 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 **404 Error page** has been included in case there are any bugs that prevent websites or links from working properly. 
 - The page has a stylised link that clearly indicates interactivity and takes the user back to the Home page of the website. 
 
-  ![ 404 error page](documentation/features/404-error-page.JPG)
+  ![ 404 error page](assets/documentation/features/404-error-page.jpg)
 
 ### Features Left to Implement
 
@@ -275,20 +278,20 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
 ```    
 - The final run of the History & Technique page through the W3C validator returned no errors  W3C validator. 
 - Screenshots of all the test results can be seen below:
-	- [index.html](documentation/testing/w3c/index-W3C-test.JPG) 
-	- [history.html](documentation/testing/w3c/history-technique-W3C-test.JPG)
-	- [portfolio.html](documentation/testing/w3c/portfolio-W3C-test.JPG)
-	- [404.html](documentation/testing/w3c/404-W3C-test.JPG)
+	- [index.html](assets/documentation/testing/w3c/index-w3c-test.jpg) 
+	- [history.html](assets/documentation/testing/w3c/history-technique-w3c-test.jpg)
+	- [portfolio.html](assets/documentation/testing/w3c/portfolio-w3c-test.jpg)
+	- [404.html](assets/documentation/testing/w3c/404-w3c-test.jpg)
 
 **CSS**
 
-- No errors were found when passing through the official W3C CSS validator. Screenshot of the test result can be seen [here](documentation/testing/w3c/CSS-W3C-test.JPG). 
+- No errors were found when passing through the official W3C CSS validator. Screenshot of the test result can be seen [here](assets/documentation/testing/w3c/css-w3c-test.jpg). 
 
 ### Unfixed Bugs
 - Embedded YouTube video has come with third party and reading cookies that are detected when using Chrome DevTools feature, this cannot be altered. This bug is also affecting the Lighthouse Performance score.
 
-  ![Third party cookies](documentation/testing/lighthouse/3rd-party-cookies.JPG)
-  ![iframe cookies](documentation/testing/lighthouse/iframe-3rd-party-cookies.JPG)
+  ![Third party cookies](assets/documentation/testing/lighthouse/3rd-party-cookies.jpg)
+  ![iframe cookies](assets/documentation/testing/lighthouse/iframe-3rd-party-cookies.jpg)
 
 - "Page prevented back/forward cache restoration" error has been noted when running Lighthouse test for the History & Technique page. It is currently not possible to amend/fix the error due to pending browser support. 
 - "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'" message appears when running Lighthouse via Chrome DevTools. Upon further research into the matter it appears that it does not affect the usability of the site, however, it is caused due to Github blocking data being gathered for FLoC. 
@@ -300,10 +303,10 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 - Performance score is affected due to cache policy and render-blocking resources. The latter can be prevented by the use of JavaScript. 
 	- **Desktop test score:**
 
-  ![Home page desktop](documentation/testing/lighthouse/lighthouse-desktop-index.JPG)
+  ![Home page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-index.jpg)
 	- **Mobile test score:**
   
-  ![Home page mobile](documentation/testing/lighthouse/lighthouse-mobile-index.JPG)
+  ![Home page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-index.jpg)
 
 #### The History & Technique page
 - Performance score is affected by"Page prevented back/forward cache restoration" error which is described in the [Unfixed Bugs](#unfixed-bugs) section.
@@ -311,20 +314,20 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 - Best Practice score is affected due to the mentioned third party and reading cookies in the [Unfixed Bugs](#unfixed-bugs) section that are caused by the video content.  
 	- **Desktop test score:**
 	
-      ![History page desktop](documentation/testing/lighthouse/lighthouse-desktop-history.JPG)
+      ![History page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-history.jpg)
 	- **Mobile test score:**
 
-      ![History page mobile](documentation/testing/lighthouse/lighthouse-mobile-history.JPG)
+      ![History page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-history.jpg)
 
 #### The Portfolio page
 - Performance score is affected due to the use of high-quality image files that I supplied myself. The images have been compressed and reduced in size as much as possible, however, further reductions would cause poor image quality with visible pixelation on bigger screens. This is something to address in the next development stage.
 - Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections, also mentioned in the History page. 
 	- **Desktop test score:**
 
-	    ![Portfolio page desktop](documentation/testing/lighthouse/lighthouse-desktop-portfolio.JPG)
+	    ![Portfolio page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-portfolio.jpg)
 	- **Mobile test score:**
 
-	    ![Portfolio page mobile](documentation/testing/lighthouse/lighthouse-mobile-portfolio.JPG)
+	    ![Portfolio page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-portfolio.jpg)
 
 #### 404 page
 - Accessibility score is affected due to the use of lighter colour font against the background colour.
@@ -332,11 +335,11 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 - SEO score is affected as the chosen "Click here" link name is not considered descriptive enough.
   - **Desktop test score:**
   
-    ![error page desktop](documentation/testing/lighthouse/lighthouse-desktop-404.JPG)
+    ![error page desktop](assets/documentation/testing/lighthouse/lighthouse-desktop-404.jpg)
 
   - **Mobile test score:**
     
-    ![error page mobile](documentation/testing/lighthouse/lighthouse-mobile-404.JPG)
+    ![error page mobile](assets/documentation/testing/lighthouse/lighthouse-mobile-404.jpg)
 
  [Return to Table of Contents](#table-of-contents)
 
