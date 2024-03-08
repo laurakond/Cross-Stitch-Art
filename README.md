@@ -51,6 +51,29 @@ Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-A
 - [Code Inspiration](#code-inspiration)
 
 
+## Design
+
+### Target audience
+The primary target audience for the website is persons of any gender aged 16+ who enjoy crafts, are interested in or already doing crafts themselves. No specific background, geographical location or income has been noted as a requirement. 
+
+
+### User Stories
+Users:
+- As a user, I want to find other like-minded crafters and familiarise myself with their story and see their completed works
+- As a user, I want to find out about cross-stitching and how to start doing it myself
+- As a user, I want to connect with other crafters
+- As a user, I want to navigate the website easily
+- As a user, I want to find a cross-stitching crafters that recreate works of art in embroidery
+- As a user, I want to follow the progress of the crafter and their projects' development
+- As a user, I want to be able to contact the crafter directly
+
+Owner of the website:
+- As the owner of the site, I want to display the website so that users can read about me and my cross-stitching journey
+- As the owner of the site, I want to share my hobby with other like-minded people
+- As the owner of the site, I want to connect with other crafters
+- As the owner of the site, I want to share my passion for art using a different medium
+- As the owner of the site, I want the users to be able to connect with me
+
 ## Features 
 
 
