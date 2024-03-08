@@ -320,60 +320,51 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 
  [Return to Table of Contents](#table-of-contents)
 
-## Credits 
+## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+The following resources have been used in preparation to and while creating the Cross Stitch Art website:
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+### Content
+The content for the home and portfolio pages was written by me. Due to time contraints the content for the History & Technique page was taken from the following sources and adapted to fit the purpose of the website:
+- [Stitched Modern](https://stitchedmodern.com/blogs/news/a-beginners-guide-to-cross-stitch) content from "What is cross-stitch" section.
+- [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/blogs/blog/the-history-of-cross-stitch) content from "The History of cross-stitch" section.
+- [Catterpillar Cross-stitch](https://www.caterpillarcrossstitch.com/pages/info) "How to Cross-stitch" content was used to provide the five-step list. 
 
-### Content 
-
-In preparation to and during this project I refered to multiple sources, including:
-- SheCodes website
-- Stackoverflow website
-- W3Schools website
-
-I read up more on Media Queries functionality and watched a few videos in order to gain a better understanding of how media queries work and function:
-- ![freeCodecamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
-- ![Dani Krossing video on Youtube](https://www.youtube.com/watch?v=UUjNEMXZA-k)
-- ![WebDev Simplified channel](https://www.youtube.com/watch?v=yU7jJ3NbPdA) 
-- ![CSS Tricks website](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer, and the burger menu were taken from [Font Awesome](https://fontawesome.com/)
-- Used Love Running project code from Code Institute for implementing drop down menu in the navigation bar, and the footer. 
+### Used code
+- W3Schools for [centering text overlay](https://www.w3schools.com/howto/howto_css_image_text.asp), for [centering an image](https://www.w3schools.com/howto/howto_css_image_center.asp), and for [centering profile image](https://www.w3schools.com/howto/howto_css_image_avatar.asp).
+- [An article on how to style a video iframe](https://yoast.com/how-to-make-youtube-videos-responsive/).
+- Code Institute's Love Running project played a major part in allowing me to have a reference point of how to create the header & the footer and the overall web layout.
 
 ### Media
+#### Images
+All of the images apart from one were supplied by me. The following image has been taken from the Musee d'Orsay website:
+- [The Dance class at the foyer of Rue Le Peletier Musee d'Orsay](https://www.musee-orsay.fr/en/artworks/le-foyer-de-la-danse-lopera-de-la-rue-le-peletier-1152).
+ 
+#### Video
+- The video content was taken from the Caterpillar Cross Stitch Youtube [channel](https://www.youtube.com/@CaterpillarCrossStitch).
 
-- Photos for background images from (insert website here):
-*   image
-*   image
-- Caterpillar Cross Stitch channel for supplying Youtube video. https://www.youtube.com/@CaterpillarCrossStitch
+#### General resources
+The following resources were used to better familiarise myself with various concepts and coding practices, for example Media Queries functionality:
+- [freeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
+- [Dani Krossing video on Youtube](https://www.youtube.com/watch?v=UUjNEMXZA-k)
+- [WebDev Simplified channel](https://www.youtube.com/watch?v=yU7jJ3NbPdA)
+- [CSS Tricks website](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+
+Other websites used for general knowledge and minor troubleshooting during the website development stage:
+- [Stack Overflow](https://stackoverflow.com/)
+- [Browser Stack](https://www.browserstack.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [W3Schools](https://www.w3schools.com/)
+- [SheCodes](https://www.shecodes.io/)
+
+
+### Acknowledgments
+My thanks goes to my mentor, [Martina Terlevic](https://github.com/SephTheOverwitch), for providing guidance, and support on all things code and project.
+
+I also want to thank the Slack community students for further guidance, cheering on and keeping the morale up. 
 
 
 ### Code inspiration
+Code Institute's Love Running project was used as an inspiration for the overall website layout and some concepts, including the code of the header and footer, the profile and the landscape detail image, and portfolio gallery image layout. 
 
-- Code Institute's Love Running project
-- stackoverflow
-- browserstack
-- freecodecamp https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262
-- W3Schools
-- SheCodes
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+ [Return to Table of Contents](#table-of-contents)
