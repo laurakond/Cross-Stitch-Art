@@ -1,15 +1,18 @@
 # Cross Stitch Art
+
 (By Laura Kondrataite)
 
-![Image showing the website responsiveness in different screen settings](responsive website url image link)
+  
 
-Cross Stitch Art is a portfolio website showcasing the development and progression of cross-stitch embroidery of one individual. Users will be able to read about the crafter, read about the history of cross-stitch embroidery, delve into the craft of cross-stich and view a gallery showcasing the crafter's former and current cross-stitching projects. The user will also find contact information in order to get in touch with the crafter.
+![Cross Stitch Art website responsiveness on various devices](documentation/am-i-responsive-all-pages.JPG)
 
-The website is responsive across a range of devices, is accessible and easy to navigate for all user audiences.
+The Cross Stitch Art is a cross-stitch portfolio website showcasing the development and progression of cross-stitch embroidery of one individual. Users will be able to read about the crafter, familiarise with the history of cross-stitch embroidery, delve into the craft of cross-stich by watching a video and view a portfolio gallery showcasing the crafter's completed and current projects. The user will also find contact information in order to get in touch with the crafter.
 
-Cross Stitch Art was primarily created for educational purposes as part of Code Institute's Web Develpment Diploma course, for HTML and CSS portfolio project. 
+The website was also created for the use of the crafter to promote their portfolio, and allow to connect with peers and audiences that are interested and curious about embroidery.
 
-There is scope to continue developing and make the website an active portfolio platform in the future.
+The website is responsive across a range of devices, is accessible and easy to navigate for all user audiences.  
+
+The Cross Stitch Art was primarily created for educational purposes as part of Code Institute's Web Develpment Diploma course for HTML and CSS portfolio project. However, there is scope to continue developing and making the website an active portfolio platform in the future.
 
 Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-Art/)
 
