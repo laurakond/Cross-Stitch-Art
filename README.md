@@ -330,13 +330,13 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 - Accessibility score is affected due to the use of lighter colour font against the background colour.
 - Performance score in mobile is affected due to static cache assets that could be resolved with JavaScript and better coding practices.
 - SEO score is affected as the chosen "Click here" link name is not considered descriptive enough.
-- **Desktop test score:**
+  - **Desktop test score:**
+  
+    ![error page desktop](documentation/testing/lighthouse/lighthouse-desktop-404.JPG)
 
-      ![404 page desktop](documentation/testing/lighthouse/lighthouse-desktop-404.JPG)
-
-- **Mobile test score:**
-
-      ![404 page mobile](documentation/testing/lighthouse/lighthouse-mobile-404.JPG)
+  - **Mobile test score:**
+    
+    ![error page mobile](documentation/testing/lighthouse/lighthouse-mobile-404.JPG)
 
  [Return to Table of Contents](#table-of-contents)
 
