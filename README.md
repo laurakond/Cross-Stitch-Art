@@ -216,48 +216,109 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
  [Return to Table of Contents](#table-of-contents)
 
+## Tools and Technologies
+### Languages used
 
-## Development
+HTML and CSS languages were used for creating this website.
+Markdown was used for creating the README file.
 
-### Testing 
+### Frameworks, Libraries and Programs used
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The following resources were used to help implement the website:
+- [Basamiq](https://balsamiq.com/) for creating wireframes
+- [GitHub](https://github.com/) for creating and storing files and folders of the website
+- Git was used for version control
+- VScode editor for writing the code
+- [Font Awesome](https://fontawesome.com/) for providing iconography for the website
+- [Google Fonts](https://fonts.google.com/) for choosing appropriate fonts
+- [Favicon](https://favicon.io/) for generating a favicon
+- Google Chrome DevTools for testing, troubleshooting and brainstorming code solutions
+- [Am I Responsive?](https://ui.dev/amiresponsive) website for showing the website's responsiveness on different devices
+- [Pixelied](https://pixelied.com/), [ILoveIMG](https://www.iloveimg.com/), Gimp, [Tiny PNG](https://tinypng.com/) for resizing, compressing and editing images
+- [Coolors](https://coolors.co/) for generating the color palette
+- WCAG color contrast checker for website accessibilty
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
+ [Return to Table of Contents](#table-of-contents)
 
 ## Deployment
+This website was deployed using GitHub pages. The steps to deploy are as follows:
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+1. Login to GitHub and navigate to the repository page (Cross-Stitch-Art), click on the chosen repository.
+2. Once inside the repository, click on the "Settings" tab above the repository title.
+3. Select "Pages" tab on the left side navigation menu.
+4. In the "Source" section (middle of the screen), select "main" or "master" branch, then "root" folder and click "save" button.
+5. The GitHub page site will be deployed. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+It might take a few minutes to generate the "live" website link.
 
-The live link can be found here - https://laurakond.github.io/Cross-Stitch-Art/
+The live link to Cross Stitch Art can be found here: [Cross Stitch Art](https://laurakond.github.io/Cross-Stitch-Art/).
 
-
-## Tools and Technologies
+ [Return to Table of Contents](#table-of-contents)
 
 
+## Testing 
+The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile. 
 
+###  W3C Validator Testing
+All HTML pages and CSS file were tested against W3C Markup and CSS validation services.
+
+**HTML**
+- The first run of the History & Technique page through W3C validator returned an inline styling error for the iframe element. I subsequentially moved the inline styling to CSS stylesheet.
+	- A semantic error within the nested list element in the History & Technique page was returned because I used a header and a paragraph elements within the nested list. 
+	- I attemped multiple solutions but realised that none of the variations were semantically correct. This was resolved by applying a pseudo element "first-line" to the appropriate elements in the nested 'Five Steps' list. The solution was provided by the [Stack overflow](https://stackoverflow.com/questions/21793711/how-do-i-apply-a-bold-to-first-li-elements-in-nested-structure) website. Below is the code used:
+```scss
+.steps:first-line{
+  font-weight: bold;
+}
+```    
+- The final run of the History & Technique page through the W3C validator returned no errors  W3C validator. 
+- Screenshots of all the test results can be seen below:
+	- [index.html](documentation/testing/w3c/index-W3C-test.JPG) 
+	- [history.html](documentation/testing/w3c/history-technique-W3C-test.JPG)
+	- [portfolio.html](documentation/testing/w3c/portfolio-W3C-test.JPG)
+	- [404.html](documentation/testing/w3c/404-W3C-test.JPG)
+
+**CSS**
+
+- No errors were found when passing through the official W3C CSS validator. Screenshot of the test result can be seen [here](documentation/testing/w3c/CSS-W3C-test.JPG). 
+
+### Unfixed Bugs
+- Embedded YouTube video has come with third party and reading cookies that are detected when using Chrome DevTools feature, this cannot be altered. This bug is also affecting the Lighthouse Performance score.
+
+  ![Third party cookies](documentation/testing/lighthouse/3rd-party-cookies.JPG)
+  ![iframe cookies](documentation/testing/lighthouse/iframe-3rd-party-cookies.JPG)
+
+- "Page prevented back/forward cache restoration" error has been noted when running Lighthouse test for the History & Technique page. It is currently not possible to amend/fix the error due to pending browser support. 
+- "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'" message appears when running Lighthouse via Chrome DevTools. Upon further research into the matter it appears that it does not affect the usability of the site, however, it is caused due to Github blocking data being gathered for FLoC. 
+  
+### Lighthouse
+Lighthouse scores vary depending on each page and whether it is a desktop or a mobile. I have listed the main denominators that are causing a drop in scores. Each of these is something to look into at the next development stage. 
+
+#### The Home page
+- Performance score is affected due to cache policy and render-blocking resources. The latter can be prevented by the use of JavaScript. 
+	- **Desktop test score:**
+![Home page desktop](documentation/testing/lighthouse/lighthouse-desktop-index.JPG)
+	- **Mobile test score:**
+![Home page mobile](documentation/testing/lighthouse/lighthouse-mobile-index.JPG)
+
+#### The History & Technique page
+- Performance score is affected by"Page prevented back/forward cache restoration" error which is described in the [Unfixed Bugs](#unfixed-bugs) section.
+- Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections. 
+- Best Practice score is affected due to the mentioned third party and reading cookies in the [Unfixed Bugs](#unfixed-bugs) section that are caused by the video content.  
+	- **Desktop test score:**
+	![History page desktop](documentation/testing/lighthouse/lighthouse-desktop-history.JPG)
+	- **Mobile test score:**
+![History page mobile](documentation/testing/lighthouse/lighthouse-mobile-history.JPG)
+
+#### The Portfolio page
+- Performance score is affected due to the use of high-quality image files that I supplied myself. The images have been compressed and reduced in size as much as possible, however, further reductions would cause poor image quality with visible pixelation on bigger screens. This is something to address in the next development stage.
+- Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections, also mentioned in the History page. 
+	- **Desktop test score:**
+	![Portfolio page desktop](documentation/testing/lighthouse/lighthouse-desktop-portfolio.JPG)
+	- **Mobile test score:**
+	![Portfolio page mobile](documentation/testing/lighthouse/lighthouse-mobile-portfolio.JPG)
+
+ [Return to Table of Contents](#table-of-contents)
 
 ## Credits 
 
