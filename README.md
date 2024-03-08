@@ -299,26 +299,42 @@ Lighthouse scores vary depending on each page and whether it is a desktop or a m
 #### The Home page
 - Performance score is affected due to cache policy and render-blocking resources. The latter can be prevented by the use of JavaScript. 
 	- **Desktop test score:**
-![Home page desktop](documentation/testing/lighthouse/lighthouse-desktop-index.JPG)
+
+  ![Home page desktop](documentation/testing/lighthouse/lighthouse-desktop-index.JPG)
 	- **Mobile test score:**
-![Home page mobile](documentation/testing/lighthouse/lighthouse-mobile-index.JPG)
+  
+  ![Home page mobile](documentation/testing/lighthouse/lighthouse-mobile-index.JPG)
 
 #### The History & Technique page
 - Performance score is affected by"Page prevented back/forward cache restoration" error which is described in the [Unfixed Bugs](#unfixed-bugs) section.
 - Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections. 
 - Best Practice score is affected due to the mentioned third party and reading cookies in the [Unfixed Bugs](#unfixed-bugs) section that are caused by the video content.  
 	- **Desktop test score:**
-	![History page desktop](documentation/testing/lighthouse/lighthouse-desktop-history.JPG)
+	
+      ![History page desktop](documentation/testing/lighthouse/lighthouse-desktop-history.JPG)
 	- **Mobile test score:**
-![History page mobile](documentation/testing/lighthouse/lighthouse-mobile-history.JPG)
+
+      ![History page mobile](documentation/testing/lighthouse/lighthouse-mobile-history.JPG)
 
 #### The Portfolio page
 - Performance score is affected due to the use of high-quality image files that I supplied myself. The images have been compressed and reduced in size as much as possible, however, further reductions would cause poor image quality with visible pixelation on bigger screens. This is something to address in the next development stage.
 - Accessibility score is affected due to "the heading elements not [being used] in a sequentially-descending order". The current order of elements (h3) was chosen to provide design continuity for text based sections, also mentioned in the History page. 
 	- **Desktop test score:**
-	![Portfolio page desktop](documentation/testing/lighthouse/lighthouse-desktop-portfolio.JPG)
+
+	    ![Portfolio page desktop](documentation/testing/lighthouse/lighthouse-desktop-portfolio.JPG)
 	- **Mobile test score:**
-	![Portfolio page mobile](documentation/testing/lighthouse/lighthouse-mobile-portfolio.JPG)
+
+	    ![Portfolio page mobile](documentation/testing/lighthouse/lighthouse-mobile-portfolio.JPG)
+
+#### 404 page
+- Accessibility score is affected due to the use of lighter colour font against the background colour.
+- Performance score in mobile is affected due to static cache assets that could be resolved with JavaScript and better coding practices.
+- SEO score is affected as the chosen "Click here" link name is not considered descriptive enough.
+- **Desktop test score:**
+      ![404 page desktop](documentation/testing/lighthouse/lighthouse-desktop-404.JPG)
+
+- **Mobile test score:**
+      ![404 page mobile](documentation/testing/lighthouse/lighthouse-mobile-404.JPG)
 
  [Return to Table of Contents](#table-of-contents)
 
