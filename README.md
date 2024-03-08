@@ -100,6 +100,15 @@ The following color scheme was used to ensure contrast is achieved between main 
 
 ![color-palette](documentation/colour-palette.JPG)
 
+### Font styles
+
+I used [Google fonts](https://fonts.google.com/) to source fonts for the website. These are:
+
+- Roboto, sans-serif - was used as the main content font.
+- Marck Script, cursive - was used for the logo and provide accent pieces to the website. 
+ 
+ [Return to Table of Contents](#table-of-contents)
+
 
 ## Features 
 
