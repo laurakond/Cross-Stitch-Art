@@ -131,32 +131,90 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 ![enter image description here](documentation/features/footer-feature.JPG)
 - Featured in all the pages, the footer section contains links to relevant social media sites for Cross Stitch Art, including an Instagram page and a Github page. It also contains an email icon that opens an email screen upon clicking. All links open in a new tab to allow easy navigation for the user.
 
-- __The Video__
+<br>
 
-  - Caterpillar Cross Stitch channel for supplying Youtube video. https://www.youtube.com/@CaterpillarCrossStitch
+**The Home page**
 
-![Video](image url of the caterpillar video video)
+- **The profile photograph and a stylised wecome note** has been used to familiarise and engage the user to read on. 
 
-- __Portfolio__
+  ![profile image and welcome note](documentation/features/home-page/Welcome-feature-with-profile-image.JPG)
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+- **About the crafter section**. This section is split into two short paragraphs each delving deeper into the crafter's journey to discovering cross-stitching and identifying her niche. The content is kept short and simple so that the user feels engaged with the content.
 
-![Gallery](image URL to the portfoltio page)
+  ![about me section](documentation/features/home-page/about-me-section.JPG)
+
+- **Accent sentence** is used at the bottom of the "about section" that emphasises the website's creative flare. It also creates a natural website progression onto the following page that focuses on the history and technique of the cross-stitch. 
+
+  ![accent phrase](documentation/features/home-page/stand-out-phrase.JPG)
+
+- **A detail image** of a cross-stitch at the bottom of the page is used to further engage the user with the content and create curiosity to visit the portfolio page. 
+
+  ![cross-stitch detail image](documentation/features/home-page/home-feature-image.JPG)
+
+<br>  
+
+**History & Technique page**. This page is split into three sections including a list of cross-stitching steps to follow and a video. 
+
+- **The History section**. This part fo the page provides a brief history of the cross-stitch as a type of embroidery, its use for practical sewing skills in earlier times and how it developed into a hobby in the mid-20th century. 
+
+  ![history section](documentation/features/history-page/history-section.JPG)
+
+- **The Technique section**. Following the history section, this section gives a general overview of different aspects to consider when starting to cross-stitch. 
+
+  ![technique section](documentation/features/history-page/technique-section.JPG)
+
+- **The five-step cross-stitch list**. This sub-section provides the user with a detailed break down of how to start cross-stitching and gives tips for best practices. The list is interactive and can be expanded and minimized by clicking on a "Click here" arrow which provides further engagement with the content. 
+
+  ![five step section](documentation/features/history-page/five-steps-section2.JPG)
+
+- **The video feature**  acts as a visual substitute to the five-step list allowing the user to interact with the content if they prefer video content as their learning material. 
+
+  ![video section](documentation/features/history-page/video-section.JPG)
+
+- On large screens, the five-step list is located directly below the technique section with the video on the side in one row. Upon clicking the arrow, the list expands below. On smaller screens, such as smartphones, the five-step list and the video feature are placed directly below the technique section. 
+
+
+<br>
+
+**Portfolio Gallery** page is divided into two sections that allow the user to easily identify the type of cross-stitch projects are currently underway and which are completed. 
+
+- **Portfolio gallery** showcases all completed cross-stitch projects. The titles of each art work are written on a translucent background to give a better visual impact to the user. 
+
+  ![portfolio gallery section](documentation/features/portfolio-page/portfolio-gallery-section.JPG) 
+
+- **Current projects** section shows cross-stitching work that is in progress and uses an original artwork's image until it is completed. 
+
+  ![current project section](documentation/features/portfolio-page/current-project-section.JPG)
+
+- On smaller screens both sections show one image per line allowing the user to easily scroll down and view them individually. On larger screens the portfolio gallery section is placed in three columns and two rows to accommodate all of the images together in a smaller space, creating an eye pleasing image gallery. 
+
+<br>
+
+**404 Error page** has been included in case there are any bugs that prevent websites or links from working properly. 
+- The page has a stylised link that clearly indicates interactivity and takes the user back to the Home page of the website. 
+
+  ![ 404 error page](documentation/features/404-error-page.JPG)
 
 ### Features Left to Implement
 
-- Implement a brushstroke hover effect to the navigation bar in the menu.
+  - Use JavaScript to implement a brushstroke hover effect to the header menu.
+  - Customise the five-step list in the Technique section with the crafter's own list of steps to follow.
+  - Use JavaScript to implement image toggle/flip function upon click to reveal the original work of art on which the cross-stitch project is based on. This would be achieved by hover over effect revealing "click on" text. Upon the click the image would flip. 
+	  - Alternatively, upon clicking the user would be taken to an external website (an art gallery or museum) that would show the original work of art and provide more information about the work.
+	  - Another option would show the current text overlay rising from the bottom up, to show a "click to reveal the artwork" text, and would prompt the user to view the original work of art.
+  - Continue updating the portfolio gallery with more projects as they progress.
+  - Impletement a detailed image gallery for each completed project that shows screenshots of page-by-page progress of the project.
+  - Include an Etsy link in the footer that would take the user to the crafter's Etsy page.
 
-## Design
+### Accessibility
+  - I have followed good accessibility stardard practices by including the following:
+	  - I used semantic HTML.
+	  - I included descriptive atl attributes to used images. 
+	  - I marked the current page with the "current" attribute to ensure that screen readers indicate it to the users.
+	  - I provided descriptive information for the screen readers where icons were used.
+	  - I ensured that sufficient color contrast is provided when choosing the color palette.    
 
-### User stories
-
-### Wireframes
-
-### Colour palette
-
-### Font styles
+ [Return to Table of Contents](#table-of-contents)
 
 
 ## Development
