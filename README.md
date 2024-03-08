@@ -41,8 +41,8 @@ Link to live page: [Cross-Stitch-Art](https://laurakond.github.io/Cross-Stitch-A
 - [Lighthouse](#lighthouse)
 
 [Credits](#credits)
-- [Used Code](#used-code)
 - [Content](#content)
+- [Used Code](#used-code)
 - [Media](#media)
 - [General resources](#general-resources)
 - [Acknowledgments](#acknowledgments)
@@ -381,7 +381,7 @@ All of the images apart from one were supplied by me. The following image has be
 
 - The video content was taken from the Caterpillar Cross Stitch Youtube [channel](https://www.youtube.com/@CaterpillarCrossStitch).
 
-#### General resources
+### General resources
 
 The following resources were used to better familiarise myself with various concepts and coding practices, for example Media Queries functionality:
 - [freeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
